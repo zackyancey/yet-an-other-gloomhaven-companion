@@ -1556,6 +1556,18 @@ allItems = [
             },
         ]
     },
+    {
+        "name": "Rootwhisperer",
+        "items": [
+            {
+                "name": "staff of the wilds",
+                "points": 1101,
+                "image": "items/RW/staff-of-the-wilds.png",
+                "xws": "staffofthewilds",
+                "type": "2H"
+            },
+        ]
+    },
 ]
 
 enhancementsCategories = [        

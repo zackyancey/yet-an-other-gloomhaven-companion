@@ -1,5 +1,6 @@
 classNames_custom = {
   bm: 'Brewmaster',
+  rw: 'Rootwhisperer'
 }
 
 attack_modifiers_categories_custom = [
@@ -170,6 +171,101 @@ attack_modifiers_categories_custom = [
       },
     ]
   },
+  {
+    "name": "am-rw",
+    "cards": [
+      {
+        "name": "am-RW-00",
+        "points": -1,
+        "image": "attack-modifiers/RW/am-rw-01.png",
+        "xws": "amrw00"
+      },
+
+      {
+        "name": "am-RW-01",
+        "points": 0,
+        "image": "attack-modifiers/RW/am-rw-01.png",
+        "xws": "amrw01"
+      },
+
+      {
+        "name": "am-RW-02",
+        "points": 1,
+        "image": "attack-modifiers/RW/am-rw-02.png",
+        "xws": "amrw02"
+      },
+
+      {
+        "name": "am-RW-03",
+        "points": 2,
+        "image": "attack-modifiers/RW/am-rw-02.png",
+        "xws": "amrw03"
+      },
+
+      {
+        "name": "am-RW-04",
+        "points": 3,
+        "image": "attack-modifiers/RW/am-rw-03.png",
+        "xws": "amrw04"
+      },
+
+      {
+        "name": "am-RW-05",
+        "points": 4,
+        "image": "attack-modifiers/RW/am-rw-03.png",
+        "xws": "amrw05"
+      },
+
+      {
+        "name": "am-RW-06",
+        "points": 5,
+        "image": "attack-modifiers/RW/am-rw-04.png",
+        "xws": "amrw06"
+      },
+
+      {
+        "name": "am-RW-07",
+        "points": 6,
+        "image": "attack-modifiers/RW/am-rw-04.png",
+        "xws": "amrw07"
+      },
+
+      {
+        "name": "am-RW-08",
+        "points": 7,
+        "image": "attack-modifiers/RW/am-rw-04.png",
+        "xws": "amrw08"
+      },
+
+      {
+        "name": "am-RW-09",
+        "points": 8,
+        "image": "attack-modifiers/RW/am-rw-04.png",
+        "xws": "amrw09"
+      },
+
+      {
+        "name": "am-RW-10",
+        "points": 9,
+        "image": "attack-modifiers/RW/am-rw-05.png",
+        "xws": "amrw10"
+      },
+
+      {
+        "name": "am-RW-11",
+        "points": 10,
+        "image": "attack-modifiers/RW/am-rw-06.png",
+        "xws": "amrw11"
+      },
+
+      {
+        "name": "am-RW-12",
+        "points": 11,
+        "image": "attack-modifiers/RW/am-rw-06.png",
+        "xws": "amrw12"
+      },
+    ]
+  }
 ]
 
 
@@ -414,4 +510,230 @@ abilities_custom = [
       },
     ]
   },
+  {
+    "name": "rw",
+    "max": 10,
+    "hidden": false,
+    "position": 3,
+
+    "cards": [
+      {
+        "name": "rw-back",
+        "points": 0,
+        "image": "character-ability-cards/RW/rw-back.png",
+        "xws": "rwback",
+        "level": 0
+      },
+      {
+        "name": "root rules",
+        "points": 3,
+        "image": "character-ability-cards/RW/root-rules.png",
+        "xws": "rules",
+        "level": 0
+      },
+      {
+        "name": "coiled vines",
+        "points": 4,
+        "image": "character-ability-cards/RW/coiled-vines.png",
+        "xws": "coiledvines",
+        "level": 1
+      },
+      {
+        "name": "crippling growth",
+        "points": 5,
+        "image": "character-ability-cards/RW/crippling-growth.png",
+        "xws": "cripplinggrowth",
+        "level": 1
+      },
+      {
+        "name": "fight or flight",
+        "points": 6,
+        "image": "character-ability-cards/RW/fight-or-flight.png",
+        "xws": "fightorflight",
+        "level": 1
+      },
+      {
+        "name": "gardener",
+        "points": 7,
+        "image": "character-ability-cards/RW/gardener.png",
+        "xws": "gardener",
+        "level": 1
+      },
+      {
+        "name": "hibernate",
+        "points": 8,
+        "image": "character-ability-cards/RW/hibernate.png",
+        "xws": "hibernate",
+        "level": 1
+      },
+      {
+        "name": "ingrown treasure",
+        "points": 9,
+        "image": "character-ability-cards/RW/ingrown-treasure.png",
+        "xws": "ingrowntreasure",
+        "level": 1
+      },
+      {
+        "name": "offensive sowing",
+        "points": 10,
+        "image": "character-ability-cards/RW/offensive-sowing.png",
+        "xws": "offensivesowing",
+        "level": 1
+      },
+      {
+        "name": "overgrowth",
+        "points": 11,
+        "image": "character-ability-cards/RW/overgrowth.png",
+        "xws": "overgrowth",
+        "level": 1
+      },
+      {
+        "name": "rejuvenating seeds",
+        "points": 12,
+        "image": "character-ability-cards/RW/rejuvenating-seeds.png",
+        "xws": "rejuvenatingseeds",
+        "level": 1
+      },
+      {
+        "name": "venomous dart",
+        "points": 13,
+        "image": "character-ability-cards/RW/venomous-dart.png",
+        "xws": "venomousdart",
+        "level": 1
+      },
+      {
+        "name": "deceptive ferns",
+        "points": 14,
+        "image": "character-ability-cards/RW/deceptive-ferns.png",
+        "xws": "deceptiveferns",
+        "level": 0
+      },
+      {
+        "name": "nimble hands",
+        "points": 15,
+        "image": "character-ability-cards/RW/nimble-hands.png",
+        "xws": "nimblehands",
+        "level": 0
+      },
+      {
+        "name": "pixie dust",
+        "points": 16,
+        "image": "character-ability-cards/RW/pixie-dust.png",
+        "xws": "pixiedust",
+        "level": 0
+      },
+      {
+        "name": "replant",
+        "points": 17,
+        "image": "character-ability-cards/RW/replant.png",
+        "xws": "replant",
+        "level": 2
+      },
+      {
+        "name": "tempting fruits",
+        "points": 18,
+        "image": "character-ability-cards/RW/tempting-fruits.png",
+        "xws": "temptingfruits",
+        "level": 2
+      },
+      {
+        "name": "airborne seedlings",
+        "points": 19,
+        "image": "character-ability-cards/RW/airborne-seedlings.png",
+        "xws": "airborneseedlings",
+        "level": 3
+      },
+      {
+        "name": "anchored defence",
+        "points": 20,
+        "image": "character-ability-cards/RW/anchored-defence.png",
+        "xws": "anchoreddefence",
+        "level": 3
+      },
+      {
+        "name": "flashspores",
+        "points": 21,
+        "image": "character-ability-cards/RW/flashspores.png",
+        "xws": "flashspores",
+        "level": 4
+      },
+      {
+        "name": "restore",
+        "points": 22,
+        "image": "character-ability-cards/RW/restore.png",
+        "xws": "restore",
+        "level": 4
+      },
+      {
+        "name": "parasitic spores",
+        "points": 23,
+        "image": "character-ability-cards/RW/parasitic-spores.png",
+        "xws": "parasiticspores",
+        "level": 5
+      },
+      {
+        "name": "photosynthesis",
+        "points": 24,
+        "image": "character-ability-cards/RW/photosynthesis.png",
+        "xws": "photosynthesis",
+        "level": 5
+      },
+      {
+        "name": "carnivorous",
+        "points": 25,
+        "image": "character-ability-cards/RW/carnivorous.png",
+        "xws": "carnivorous",
+        "level": 6
+      },
+      {
+        "name": "foul dandelion",
+        "points": 26,
+        "image": "character-ability-cards/RW/foul-dandelion.png",
+        "xws": "fouldandelion",
+        "level": 6
+      },
+      {
+        "name": "angle grip",
+        "points": 27,
+        "image": "character-ability-cards/RW/angle-grip.png",
+        "xws": "anglegrip",
+        "level": 7
+      },
+      {
+        "name": "vile tentacles",
+        "points": 28,
+        "image": "character-ability-cards/RW/vile-tentacles.png",
+        "xws": "viletentacles",
+        "level": 7
+      },
+      {
+        "name": "floral bloom",
+        "points": 29,
+        "image": "character-ability-cards/RW/floral-bloom.png",
+        "xws": "floralbloom",
+        "level": 8
+      },
+      {
+        "name": "noxious pollen",
+        "points": 30,
+        "image": "character-ability-cards/RW/noxious-pollen.png",
+        "xws": "noxiouspollen",
+        "level": 8
+      },
+      {
+        "name": "jungle entanglement",
+        "points": 31,
+        "image": "character-ability-cards/RW/jungle-entanglement.png",
+        "xws": "jungleentanglement",
+        "level": 9
+      },
+      {
+        "name": "symbiosis",
+        "points": 32,
+        "image": "character-ability-cards/RW/symbiosis.png",
+        "xws": "symbiosis",
+        "level": 9
+      },
+    ]
+  }
 ]
