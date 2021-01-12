@@ -1529,7 +1529,33 @@ allItems = [
                 "type": "1H"
             }
         ]
-    }
+    },
+    {
+        "name": "Brewmaster",
+        "items": [
+            {
+                "name": "liquid rage",
+                "points": 1001,
+                "image": "items/BM/liquid-rage.jpg",
+                "xws": "liquidrage",
+                "type": "consumable"
+            },
+            {
+                "name": "monk's garb",
+                "points": 1002,
+                "image": "items/BM/monks-garb.jpg",
+                "xws": "monksgarb",
+                "type": "body"
+            },
+            {
+                "name": "wanderer's companion",
+                "points": 1002,
+                "image": "items/BM/wanderers-companion.jpg",
+                "xws": "wandererscompanion",
+                "type": "2H"
+            },
+        ]
+    },
 ]
 
 enhancementsCategories = [        
