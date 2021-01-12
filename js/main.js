@@ -63,6 +63,9 @@ new Vue({
                 case 'frosthaven':
                     this.loadDatabaseFrosthaven()
                     break
+                case 'custom':
+                    this.loadDatabaseCustom()
+                    break
                 default:
                     console.log("default")
                     this.loadDatabaseVanilla()
@@ -83,6 +86,11 @@ new Vue({
             this.classNames = classNames_jotl
             this.modifiers = attack_modifiers_categories_jotl        
             this.abilities = abilities_jotl
+        },
+        loadDatabaseCustom: function() {
+            this.classNames = classNames_custom
+            this.modifiers = attack_modifiers_categories_custom
+            this.abilities = abilities_custom
         },
         loadXEnvelope: function() {
             if (! this.hasOpenedXEnvelope) {            
