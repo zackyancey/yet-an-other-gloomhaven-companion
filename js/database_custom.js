@@ -1,7 +1,8 @@
 classNames_custom = {
   bm: 'Brewmaster',
   rw: 'Rootwhisperer',
-  fb: 'Frostborn'
+  fb: 'Frostborn',
+  cf: "Chieftan",
 }
 
 attack_modifiers_categories_custom = [
@@ -396,7 +397,130 @@ attack_modifiers_categories_custom = [
         "xws": "amfb17"
       },
     ]
-  }
+  },
+  {
+    "name": "am-cf",
+    "cards": [
+      {
+        "name": "am-CF-00",
+        "points": 0,
+        "image": "attack-modifiers/CF/am-cf-01.png",
+        "xws": "amcf00"
+      },
+
+      {
+        "name": "am-CF-01",
+        "points": 1,
+        "image": "attack-modifiers/CF/am-cf-02.png",
+        "xws": "amcf01"
+      },
+
+      {
+        "name": "am-CF-02",
+        "points": 2,
+        "image": "attack-modifiers/CF/am-cf-02.png",
+        "xws": "amcf02"
+      },
+
+      {
+        "name": "am-CF-03",
+        "points": 3,
+        "image": "attack-modifiers/CF/am-cf-02.png",
+        "xws": "amcf03"
+      },
+
+      {
+        "name": "am-CF-04",
+        "points": 4,
+        "image": "attack-modifiers/CF/am-cf-03.png",
+        "xws": "amcf04"
+      },
+
+      {
+        "name": "am-CF-05",
+        "points": 5,
+        "image": "attack-modifiers/CF/am-cf-03.png",
+        "xws": "amcf05"
+      },
+
+      {
+        "name": "am-CF-06",
+        "points": 6,
+        "image": "attack-modifiers/CF/am-cf-04.png",
+        "xws": "amcf06"
+      },
+
+      {
+        "name": "am-CF-07",
+        "points": 7,
+        "image": "attack-modifiers/CF/am-cf-04.png",
+        "xws": "amcf07"
+      },
+
+      {
+        "name": "am-CF-08",
+        "points": 8,
+        "image": "attack-modifiers/CF/am-cf-04.png",
+        "xws": "amcf08"
+      },
+
+      {
+        "name": "am-CF-09",
+        "points": 9,
+        "image": "attack-modifiers/CF/am-cf-04.png",
+        "xws": "amcf09"
+      },
+
+      {
+        "name": "am-CF-10",
+        "points": 10,
+        "image": "attack-modifiers/CF/am-cf-04.png",
+        "xws": "amcf10"
+      },
+
+      {
+        "name": "am-CF-11",
+        "points": 11,
+        "image": "attack-modifiers/CF/am-cf-04.png",
+        "xws": "amcf11"
+      },
+
+      {
+        "name": "am-CF-12",
+        "points": 12,
+        "image": "attack-modifiers/CF/am-cf-05.png",
+        "xws": "amcf12"
+      },
+
+      {
+        "name": "am-CF-13",
+        "points": 13,
+        "image": "attack-modifiers/CF/am-cf-06.png",
+        "xws": "amcf13"
+      },
+
+      {
+        "name": "am-CF-14",
+        "points": 14,
+        "image": "attack-modifiers/CF/am-cf-06.png",
+        "xws": "amcf14"
+      },
+
+      {
+        "name": "am-CF-15",
+        "points": 15,
+        "image": "attack-modifiers/CF/am-cf-07.png",
+        "xws": "amcf15"
+      },
+
+      {
+        "name": "am-CF-16",
+        "points": 16,
+        "image": "attack-modifiers/CF/am-cf-08.png",
+        "xws": "amcf16"
+      },
+    ]
+  },
 ]
 
 
@@ -1082,6 +1206,232 @@ abilities_custom = [
         "points": 31,
         "image": "character-ability-cards/FB/thermal-deadlock.png",
         "xws": "thermaldeadlock",
+        "level": 9
+      },
+    ]
+  },
+  {
+    "name": "cf",
+    "max": 10,
+    "hidden": false,
+    "position": 5,
+
+    "cards": [
+      {
+        "name": "cf-back",
+        "points": 0,
+        "image": "character-ability-cards/CF/cf-back.png",
+        "xws": "rwback",
+        "level": 0
+      },
+      {
+        "name": "rules",
+        "points": 3,
+        "image": "character-ability-cards/CF/rules.png",
+        "xws": "rules",
+        "level": 0
+      },
+      {
+        "name": "soul whisperer",
+        "points": 4,
+        "image": "character-ability-cards/CF/soul-whisperer.png",
+        "xws": "soulwhisperer",
+        "level": 1
+      },
+      {
+        "name": "catastrophic cattle",
+        "points": 5,
+        "image": "character-ability-cards/CF/catastrophic-cattle.png",
+        "xws": "catastrophiccattle",
+        "level": 1
+      },
+      {
+        "name": "outrun the enemy",
+        "points": 6,
+        "image": "character-ability-cards/CF/outrun-the-enemy.png",
+        "xws": "outruntheenemy",
+        "level": 1
+      },
+      {
+        "name": "piercing darts",
+        "points": 7,
+        "image": "character-ability-cards/CF/piercing-darts.png",
+        "xws": "piercingdarts",
+        "level": 1
+      },
+      {
+        "name": "pipe tomahawk",
+        "points": 8,
+        "image": "character-ability-cards/CF/pipe-tomahawk.png",
+        "xws": "pipetomahawk",
+        "level": 1
+      },
+      {
+        "name": "resurrection",
+        "points": 9,
+        "image": "character-ability-cards/CF/resurrection.png",
+        "xws": "resurrection",
+        "level": 1
+      },
+      {
+        "name": "skinning knife",
+        "points": 10,
+        "image": "character-ability-cards/CF/skinning-knife.png",
+        "xws": "skinningknife",
+        "level": 1
+      },
+      {
+        "name": "slow and steady",
+        "points": 11,
+        "image": "character-ability-cards/CF/slow-and-steady.png",
+        "xws": "slowandsteady",
+        "level": 1
+      },
+      {
+        "name": "shiffing hound",
+        "points": 12,
+        "image": "character-ability-cards/CF/shiffing-hound.png",
+        "xws": "shiffinghound",
+        "level": 1
+      },
+      {
+        "name": "sucker punch",
+        "points": 13,
+        "image": "character-ability-cards/CF/sucker-punch.png",
+        "xws": "suckerpunch",
+        "level": 1
+      },
+      {
+        "name": "prepared rations",
+        "points": 14,
+        "image": "character-ability-cards/CF/prepared-rations.png",
+        "xws": "preparedrations",
+        "level": 0
+      },
+      {
+        "name": "hunters mark",
+        "points": 15,
+        "image": "character-ability-cards/CF/hunters-mark.png",
+        "xws": "huntersmark",
+        "level": 0
+      },
+      {
+        "name": "mounded sight",
+        "points": 16,
+        "image": "character-ability-cards/CF/mounded-sight.png",
+        "xws": "moundedsight",
+        "level": 0
+      },
+      {
+        "name": "medicine shield",
+        "points": 17,
+        "image": "character-ability-cards/CF/medicine-shield.png",
+        "xws": "medicineshield",
+        "level": 2
+      },
+      {
+        "name": "ceremonial dance",
+        "points": 18,
+        "image": "character-ability-cards/CF/ceremonial-dance.png",
+        "xws": "ceremonialdance",
+        "level": 2
+      },
+      {
+        "name": "take the reigns",
+        "points": 19,
+        "image": "character-ability-cards/CF/take-the-reigns.png",
+        "xws": "takethereigns",
+        "level": 3
+      },
+      {
+        "name": "agile predator",
+        "points": 20,
+        "image": "character-ability-cards/CF/agile-predator.png",
+        "xws": "agilepredator",
+        "level": 3
+      },
+      {
+        "name": "war paint",
+        "points": 21,
+        "image": "character-ability-cards/CF/war-paint.png",
+        "xws": "warpaint",
+        "level": 4
+      },
+      {
+        "name": "spiked muzzle",
+        "points": 22,
+        "image": "character-ability-cards/CF/spiked-muzzle.png",
+        "xws": "spikedmuzzle",
+        "level": 4
+      },
+      {
+        "name": "positive reinforcement",
+        "points": 23,
+        "image": "character-ability-cards/CF/positive-reinforcement.png",
+        "xws": "positivereinforcement",
+        "level": 5
+      },
+      {
+        "name": "chest thumper",
+        "points": 24,
+        "image": "character-ability-cards/CF/chest-thumper.png",
+        "xws": "chestthumper",
+        "level": 5
+      },
+      {
+        "name": "venomous mayhem",
+        "points": 25,
+        "image": "character-ability-cards/CF/venomous-mayhem.png",
+        "xws": "venomousmayhem",
+        "level": 6
+      },
+      {
+        "name": "one with nature",
+        "points": 26,
+        "image": "character-ability-cards/CF/one-with-nature.png",
+        "xws": "onewithnature",
+        "level": 6
+      },
+      {
+        "name": "strapping bullwhip",
+        "points": 27,
+        "image": "character-ability-cards/CF/strapping-bullwhip.png",
+        "xws": "strappingbullwhip",
+        "level": 7
+      },
+      {
+        "name": "impervious armor",
+        "points": 28,
+        "image": "character-ability-cards/CF/impervious-armor.png",
+        "xws": "imperviousarmor",
+        "level": 7
+      },
+      {
+        "name": "tribal blessing",
+        "points": 29,
+        "image": "character-ability-cards/CF/tribal-blessing.png",
+        "xws": "tribalblessing",
+        "level": 8
+      },
+      {
+        "name": "majestic mass",
+        "points": 30,
+        "image": "character-ability-cards/CF/majestic-mass.png",
+        "xws": "majesticmass",
+        "level": 8
+      },
+      {
+        "name": "regal beast",
+        "points": 31,
+        "image": "character-ability-cards/CF/regal-beast.png",
+        "xws": "regalbeast",
+        "level": 9
+      },
+      {
+        "name": "master the reins",
+        "points": 32,
+        "image": "character-ability-cards/CF/master-the-reins.png",
+        "xws": "masterthereins",
         "level": 9
       },
     ]

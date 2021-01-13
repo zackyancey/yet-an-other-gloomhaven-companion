@@ -1580,6 +1580,25 @@ allItems = [
             },
         ]
     },
+    {
+        "name": "Chieftan",
+        "items": [
+            {
+                "name": "nature armlets",
+                "points": 1301,
+                "image": "items/CF/nature-armlets.png",
+                "xws": "naturearmlets",
+                "type": "1H"
+            },
+            {
+                "name": "summoners whistle",
+                "points": 1302,
+                "image": "items/CF/summoners-whistle.png",
+                "xws": "summonerswhistle",
+                "type": "consumable"
+            },
+        ]
+    },
 ]
 
 enhancementsCategories = [        
