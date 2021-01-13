@@ -1599,6 +1599,25 @@ allItems = [
             },
         ]
     },
+    {
+        "name": "Brightspark",
+        "items": [
+            {
+                "name": "test tubes",
+                "points": 1401,
+                "image": "items/BK/test-tubes.png",
+                "xws": "testtubes",
+                "type": "1H"
+            },
+            {
+                "name": "booster shot",
+                "points": 1402,
+                "image": "items/BK/booster-shot.png",
+                "xws": "boostershot",
+                "type": "consumable"
+            },
+        ]
+    },
 ]
 
 enhancementsCategories = [        

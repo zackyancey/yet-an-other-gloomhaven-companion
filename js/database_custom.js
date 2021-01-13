@@ -3,6 +3,7 @@ classNames_custom = {
   rw: 'Rootwhisperer',
   fb: 'Frostborn',
   cf: "Chieftan",
+  bk: "Brightspark",
 }
 
 attack_modifiers_categories_custom = [
@@ -521,6 +522,108 @@ attack_modifiers_categories_custom = [
       },
     ]
   },
+  {
+    "name": "am-bk",
+    "cards": [
+      {
+        "name": "am-BK-00",
+        "points": 0,
+        "image": "attack-modifiers/BK/am-bk-01.png",
+        "xws": "ambk00"
+      },
+
+      {
+        "name": "am-BK-01",
+        "points": 1,
+        "image": "attack-modifiers/BK/am-bk-02.png",
+        "xws": "ambk01"
+      },
+
+      {
+        "name": "am-BK-02",
+        "points": 2,
+        "image": "attack-modifiers/BK/am-bk-03.png",
+        "xws": "ambk02"
+      },
+
+      {
+        "name": "am-BK-03",
+        "points": 3,
+        "image": "attack-modifiers/BK/am-bk-03.png",
+        "xws": "ambk03"
+      },
+
+      {
+        "name": "am-BK-04",
+        "points": 4,
+        "image": "attack-modifiers/BK/am-bk-04.png",
+        "xws": "ambk04"
+      },
+
+      {
+        "name": "am-BK-05",
+        "points": 5,
+        "image": "attack-modifiers/BK/am-bk-05.png",
+        "xws": "ambk05"
+      },
+
+      {
+        "name": "am-BK-06",
+        "points": 6,
+        "image": "attack-modifiers/BK/am-bk-06.png",
+        "xws": "ambk06"
+      },
+
+      {
+        "name": "am-BK-07",
+        "points": 7,
+        "image": "attack-modifiers/BK/am-bk-07.png",
+        "xws": "ambk07"
+      },
+
+      {
+        "name": "am-BK-08",
+        "points": 8,
+        "image": "attack-modifiers/BK/am-bk-07.png",
+        "xws": "ambk08"
+      },
+
+      {
+        "name": "am-BK-09",
+        "points": 9,
+        "image": "attack-modifiers/BK/am-bk-08.png",
+        "xws": "ambk09"
+      },
+
+      {
+        "name": "am-BK-10",
+        "points": 10,
+        "image": "attack-modifiers/BK/am-bk-08.png",
+        "xws": "ambk10"
+      },
+
+      {
+        "name": "am-BK-11",
+        "points": 11,
+        "image": "attack-modifiers/BK/am-bk-09.png",
+        "xws": "ambk11"
+      },
+
+      {
+        "name": "am-BK-12",
+        "points": 12,
+        "image": "attack-modifiers/BK/am-bk-10.png",
+        "xws": "ambk12"
+      },
+
+      {
+        "name": "am-BK-13",
+        "points": 13,
+        "image": "attack-modifiers/BK/am-bk-10.png",
+        "xws": "ambk13"
+      },
+    ]
+  }
 ]
 
 
@@ -1435,5 +1538,231 @@ abilities_custom = [
         "level": 9
       },
     ]
-  }
+  },
+  {
+    "name": "bk",
+    "max": 11,
+    "hidden": false,
+    "position": 6,
+
+    "cards": [
+      {
+        "name": "bk-back",
+        "points": 0,
+        "image": "character-ability-cards/BK/bk-back.png",
+        "xws": "bkback",
+        "level": 0
+      },
+      {
+        "name": "acquire funding",
+        "points": 3,
+        "image": "character-ability-cards/BK/acquire-funding.png",
+        "xws": "acquirefunding",
+        "level": 1
+      },
+      {
+        "name": "blinding lightwaves",
+        "points": 4,
+        "image": "character-ability-cards/BK/blinding-lightwaves.png",
+        "xws": "blindinglightwaves",
+        "level": 1
+      },
+      {
+        "name": "cell regeneration",
+        "points": 5,
+        "image": "character-ability-cards/BK/cell-regeneration.png",
+        "xws": "cellregeneration",
+        "level": 1
+      },
+      {
+        "name": "contagious malady",
+        "points": 6,
+        "image": "character-ability-cards/BK/contagious-malady.png",
+        "xws": "contagiousmalady",
+        "level": 1
+      },
+      {
+        "name": "corrosive combustion",
+        "points": 7,
+        "image": "character-ability-cards/BK/corrosive-combustion.png",
+        "xws": "corrosivecombustion",
+        "level": 1
+      },
+      {
+        "name": "critical observation",
+        "points": 8,
+        "image": "character-ability-cards/BK/critical-observation.png",
+        "xws": "criticalobservation",
+        "level": 1
+      },
+      {
+        "name": "dynamic balance",
+        "points": 9,
+        "image": "character-ability-cards/BK/dynamic-balance.png",
+        "xws": "dynamicbalance",
+        "level": 1
+      },
+      {
+        "name": "exothermic cocktail",
+        "points": 10,
+        "image": "character-ability-cards/BK/exothermic-cocktail.png",
+        "xws": "exothermiccocktail",
+        "level": 1
+      },
+      {
+        "name": "frozen explosion",
+        "points": 11,
+        "image": "character-ability-cards/BK/frozen-explosion.png",
+        "xws": "frozenexplosion",
+        "level": 1
+      },
+      {
+        "name": "magnetic field",
+        "points": 12,
+        "image": "character-ability-cards/BK/magnetic-field.png",
+        "xws": "magneticfield",
+        "level": 1
+      },
+      {
+        "name": "preliminary research",
+        "points": 13,
+        "image": "character-ability-cards/BK/preliminary-research.png",
+        "xws": "preliminaryresearch",
+        "level": 1
+      },
+      {
+        "name": "envionmental survey",
+        "points": 14,
+        "image": "character-ability-cards/BK/envionmental-survey.png",
+        "xws": "envionmentalsurvey",
+        "level": 0
+      },
+      {
+        "name": "leftover tonic",
+        "points": 15,
+        "image": "character-ability-cards/BK/leftover-tonic.png",
+        "xws": "leftovertonic",
+        "level": 0
+      },
+      {
+        "name": "weights and measures",
+        "points": 16,
+        "image": "character-ability-cards/BK/weights-and-measures.png",
+        "xws": "weightsandmeasures",
+        "level": 0
+      },
+      {
+        "name": "nutrient overdose",
+        "points": 17,
+        "image": "character-ability-cards/BK/nutrient-overdose.png",
+        "xws": "nutrientoverdose",
+        "level": 2
+      },
+      {
+        "name": "weather forecast",
+        "points": 18,
+        "image": "character-ability-cards/BK/weather-forecast.png",
+        "xws": "weatherforecast",
+        "level": 2
+      },
+      {
+        "name": "befuddling serum",
+        "points": 19,
+        "image": "character-ability-cards/BK/befuddling-serum.png",
+        "xws": "befuddlingserum",
+        "level": 3
+      },
+      {
+        "name": "transformation libation",
+        "points": 20,
+        "image": "character-ability-cards/BK/transformation-libation.png",
+        "xws": "transformationlibation",
+        "level": 3
+      },
+      {
+        "name": "electromagnetism",
+        "points": 21,
+        "image": "character-ability-cards/BK/electromagnetism.png",
+        "xws": "electromagnetism",
+        "level": 4
+      },
+      {
+        "name": "strength elixir",
+        "points": 22,
+        "image": "character-ability-cards/BK/strength-elixir.png",
+        "xws": "strengthelixir",
+        "level": 4
+      },
+      {
+        "name": "advanced research",
+        "points": 23,
+        "image": "character-ability-cards/BK/advanced-research.png",
+        "xws": "advancedresearch",
+        "level": 5
+      },
+      {
+        "name": "elevated chemicals",
+        "points": 24,
+        "image": "character-ability-cards/BK/elevated-chemicals.png",
+        "xws": "elevatedchemicals",
+        "level": 5
+      },
+      {
+        "name": "antibiotic boost",
+        "points": 25,
+        "image": "character-ability-cards/BK/antibiotic-boost.png",
+        "xws": "antibioticboost",
+        "level": 6
+      },
+      {
+        "name": "molecular hydroblast",
+        "points": 26,
+        "image": "character-ability-cards/BK/molecular-hydroblast.png",
+        "xws": "molecularhydroblast",
+        "level": 6
+      },
+      {
+        "name": "astronomical strike",
+        "points": 27,
+        "image": "character-ability-cards/BK/astronomical-strike.png",
+        "xws": "astronomicalstrike",
+        "level": 7
+      },
+      {
+        "name": "nourishing formula",
+        "points": 28,
+        "image": "character-ability-cards/BK/nourishing-formula.png",
+        "xws": "nourishingformula",
+        "level": 7
+      },
+      {
+        "name": "critical hypothesis",
+        "points": 29,
+        "image": "character-ability-cards/BK/critical-hypothesis.png",
+        "xws": "criticalhypothesis",
+        "level": 8
+      },
+      {
+        "name": "versatile connection",
+        "points": 30,
+        "image": "character-ability-cards/BK/versatile-connection.png",
+        "xws": "versatileconnection",
+        "level": 8
+      },
+      {
+        "name": "elixir of life",
+        "points": 31,
+        "image": "character-ability-cards/BK/elixir-of-life.png",
+        "xws": "elixiroflife",
+        "level": 9
+      },
+      {
+        "name": "ultraviolet rays",
+        "points": 32,
+        "image": "character-ability-cards/BK/ultraviolet-rays.png",
+        "xws": "ultravioletrays",
+        "level": 9
+      },
+    ]
+  },
 ]
