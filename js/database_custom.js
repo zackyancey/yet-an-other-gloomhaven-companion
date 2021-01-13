@@ -1,6 +1,7 @@
 classNames_custom = {
   bm: 'Brewmaster',
-  rw: 'Rootwhisperer'
+  rw: 'Rootwhisperer',
+  fb: 'Frostborn'
 }
 
 attack_modifiers_categories_custom = [
@@ -263,6 +264,136 @@ attack_modifiers_categories_custom = [
         "points": 11,
         "image": "attack-modifiers/RW/am-rw-06.png",
         "xws": "amrw12"
+      },
+    ]
+  },
+  {
+    "name": "am-fb",
+    "cards": [
+      {
+        "name": "am-FB-00",
+        "points": 0,
+        "image": "attack-modifiers/FB/am-fb-01.png",
+        "xws": "amfb00"
+      },
+
+      {
+        "name": "am-FB-01",
+        "points": 1,
+        "image": "attack-modifiers/FB/am-fb-01.png",
+        "xws": "amfb01"
+      },
+
+      {
+        "name": "am-FB-02",
+        "points": 2,
+        "image": "attack-modifiers/FB/am-fb-02.png",
+        "xws": "amfb02"
+      },
+
+      {
+        "name": "am-FB-03",
+        "points": 3,
+        "image": "attack-modifiers/FB/am-fb-02.png",
+        "xws": "amfb03"
+      },
+
+      {
+        "name": "am-FB-04",
+        "points": 4,
+        "image": "attack-modifiers/FB/am-fb-02.png",
+        "xws": "amfb04"
+      },
+
+      {
+        "name": "am-FB-05",
+        "points": 5,
+        "image": "attack-modifiers/FB/am-fb-02.png",
+        "xws": "amfb05"
+      },
+
+      {
+        "name": "am-FB-06",
+        "points": 6,
+        "image": "attack-modifiers/FB/am-fb-03.png",
+        "xws": "amfb06"
+      },
+
+      {
+        "name": "am-FB-07",
+        "points": 7,
+        "image": "attack-modifiers/FB/am-fb-03.png",
+        "xws": "amfb07"
+      },
+
+      {
+        "name": "am-FB-08",
+        "points": 8,
+        "image": "attack-modifiers/FB/am-fb-04.png",
+        "xws": "amfb08"
+      },
+
+      {
+        "name": "am-FB-09",
+        "points": 9,
+        "image": "attack-modifiers/FB/am-fb-05.png",
+        "xws": "amfb09"
+      },
+
+      {
+        "name": "am-FB-10",
+        "points": 10,
+        "image": "attack-modifiers/FB/am-fb-06.png",
+        "xws": "amfb10"
+      },
+
+      {
+        "name": "am-FB-11",
+        "points": 11,
+        "image": "attack-modifiers/FB/am-fb-06.png",
+        "xws": "amfb11"
+      },
+
+      {
+        "name": "am-FB-12",
+        "points": 12,
+        "image": "attack-modifiers/FB/am-fb-07.png",
+        "xws": "amfb12"
+      },
+
+      {
+        "name": "am-FB-13",
+        "points": 13,
+        "image": "attack-modifiers/FB/am-fb-07.png",
+        "xws": "amfb13"
+      },
+
+      {
+        "name": "am-FB-14",
+        "points": 14,
+        "image": "attack-modifiers/FB/am-fb-07.png",
+        "xws": "amfb14"
+      },
+
+      {
+        "name": "am-FB-15",
+        "points": 15,
+        "image": "attack-modifiers/FB/am-fb-08.png",
+        "xws": "amfb15"
+      },
+
+      {
+        "name": "am-FB-16",
+        "points": 16,
+        "image": "attack-modifiers/FB/am-fb-08.png",
+        "xws": "amfb16"
+      },
+
+      {
+        "name": "am-FB-17",
+        "points": 17,
+        "image": "attack-modifiers/FB/am-fb-08.png",
+        "xws": "amfb17"
       },
     ]
   }
@@ -732,6 +863,225 @@ abilities_custom = [
         "points": 32,
         "image": "character-ability-cards/RW/symbiosis.png",
         "xws": "symbiosis",
+        "level": 9
+      },
+    ]
+  },
+  {
+    "name": "fb",
+    "max": 9,
+    "hidden": false,
+    "position": 4,
+
+    "cards": [
+      {
+        "name": "fb-back",
+        "points": 0,
+        "image": "character-ability-cards/FB/fb-back.png",
+        "xws": "rwback",
+        "level": 0
+      },
+      {
+        "name": "chill rules",
+        "points": 3,
+        "image": "character-ability-cards/FB/chill-rules.png",
+        "xws": "rules",
+        "level": 0
+      },
+      {
+        "name": "hypothermia",
+        "points": 4,
+        "image": "character-ability-cards/FB/hypothermia.png",
+        "xws": "hypothermia",
+        "level": 1
+      },
+      {
+        "name": "thermal conduction",
+        "points": 5,
+        "image": "character-ability-cards/FB/thermal-conduction.png",
+        "xws": "thermalconduction",
+        "level": 1
+      },
+      {
+        "name": "frigid blast",
+        "points": 6,
+        "image": "character-ability-cards/FB/frigid-blast.png",
+        "xws": "frigidblast",
+        "level": 1
+      },
+      {
+        "name": "black ice",
+        "points": 7,
+        "image": "character-ability-cards/FB/black-ice.png",
+        "xws": "blackice",
+        "level": 1
+      },
+      {
+        "name": "hoar frost",
+        "points": 8,
+        "image": "character-ability-cards/FB/hoar-frost.png",
+        "xws": "hoarfrost",
+        "level": 1
+      },
+      {
+        "name": "winters embrace",
+        "points": 9,
+        "image": "character-ability-cards/FB/winters-embrace.png",
+        "xws": "wintersembrace",
+        "level": 1
+      },
+      {
+        "name": "ice shards",
+        "points": 10,
+        "image": "character-ability-cards/FB/ice-shards.png",
+        "xws": "iceshards",
+        "level": 1
+      },
+      {
+        "name": "cryo stasis",
+        "points": 11,
+        "image": "character-ability-cards/FB/cryo-stasis.png",
+        "xws": "cryostasis",
+        "level": 1
+      },
+      {
+        "name": "freezing touch",
+        "points": 12,
+        "image": "character-ability-cards/FB/freezing-touch.png",
+        "xws": "freezingtouch",
+        "level": 1
+      },
+      {
+        "name": "kinetic transfer",
+        "points": 13,
+        "image": "character-ability-cards/FB/kinetic-transfer.png",
+        "xws": "kinetictransfer",
+        "level": 0
+      },
+      {
+        "name": "contagious cold",
+        "points": 14,
+        "image": "character-ability-cards/FB/contagious-cold.png",
+        "xws": "contagiouscold",
+        "level": 0
+      },
+      {
+        "name": "impaling icicle",
+        "points": 15,
+        "image": "character-ability-cards/FB/impaling-icicle.png",
+        "xws": "impalingicicle",
+        "level": 0
+      },
+      {
+        "name": "rigid grasp",
+        "points": 16,
+        "image": "character-ability-cards/FB/rigid-grasp.png",
+        "xws": "rigidgrasp",
+        "level": 2
+      },
+      {
+        "name": "shattered orb",
+        "points": 17,
+        "image": "character-ability-cards/FB/shattered-orb.png",
+        "xws": "shatteredorb",
+        "level": 2
+      },
+      {
+        "name": "sleet squall",
+        "points": 18,
+        "image": "character-ability-cards/FB/sleet-squall.png",
+        "xws": "sleetsquall",
+        "level": 3
+      },
+      {
+        "name": "arctic gale",
+        "points": 19,
+        "image": "character-ability-cards/FB/arctic-gale.png",
+        "xws": "arcticgale",
+        "level": 3
+      },
+      {
+        "name": "tempest invocation",
+        "points": 20,
+        "image": "character-ability-cards/FB/tempest-invocation.png",
+        "xws": "tempestinvocation",
+        "level": 4
+      },
+      {
+        "name": "frost javelin",
+        "points": 21,
+        "image": "character-ability-cards/FB/frost-javelin.png",
+        "xws": "frostjavelin",
+        "level": 4
+      },
+      {
+        "name": "glacial barrier",
+        "points": 22,
+        "image": "character-ability-cards/FB/glacial-barrier.png",
+        "xws": "glacialbarrier",
+        "level": 5
+      },
+      {
+        "name": "breath of whitefire",
+        "points": 23,
+        "image": "character-ability-cards/FB/breath-of-whitefire.png",
+        "xws": "breathofwhitefire",
+        "level": 5
+      },
+      {
+        "name": "cold burn",
+        "points": 24,
+        "image": "character-ability-cards/FB/cold-burn.png",
+        "xws": "coldburn",
+        "level": 6
+      },
+      {
+        "name": "cave in",
+        "points": 25,
+        "image": "character-ability-cards/FB/cave-in.png",
+        "xws": "cavein",
+        "level": 6
+      },
+      {
+        "name": "frostbite",
+        "points": 26,
+        "image": "character-ability-cards/FB/frostbite.png",
+        "xws": "frostbite",
+        "level": 7
+      },
+      {
+        "name": "solidification",
+        "points": 27,
+        "image": "character-ability-cards/FB/solidification.png",
+        "xws": "solidification",
+        "level": 7
+      },
+      {
+        "name": "hail storm",
+        "points": 28,
+        "image": "character-ability-cards/FB/hail-storm.png",
+        "xws": "hailstorm",
+        "level": 8
+      },
+      {
+        "name": "inexorable momentum",
+        "points": 29,
+        "image": "character-ability-cards/FB/inexorable-momentum.png",
+        "xws": "inexorablemomentum",
+        "level": 8
+      },
+      {
+        "name": "heartless culling",
+        "points": 30,
+        "image": "character-ability-cards/FB/heartless-culling.png",
+        "xws": "heartlessculling",
+        "level": 9
+      },
+      {
+        "name": "thermal deadlock",
+        "points": 31,
+        "image": "character-ability-cards/FB/thermal-deadlock.png",
+        "xws": "thermaldeadlock",
         "level": 9
       },
     ]

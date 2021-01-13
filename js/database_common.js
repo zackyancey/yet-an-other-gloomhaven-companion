@@ -1568,6 +1568,18 @@ allItems = [
             },
         ]
     },
+    {
+        "name": "Frostborn",
+        "items": [
+            {
+                "name": "Winter Tiara",
+                "points": 1201,
+                "image": "items/FB/winter-tiara.png",
+                "xws": "wintertiara",
+                "type": "head"
+            },
+        ]
+    },
 ]
 
 enhancementsCategories = [        
