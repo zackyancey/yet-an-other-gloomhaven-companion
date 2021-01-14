@@ -10,7 +10,7 @@ new Vue({
         hasEnabledCardExchange: false,
         showSpoiler: false,
         showLockedClasses: false,
-        version: 'vanilla',
+        version: 'custom',
         alert: '',        
         classChosen : false,
 
@@ -35,7 +35,7 @@ new Vue({
             if (versionCookie != null) {
                 this.loadDatabaseVersion(versionCookie)
             } else {
-                this.loadDatabaseVersion('vanilla')
+                this.loadDatabaseVersion('custom')
             }
 
             this.modifiersSpecial = attack_modifiers_special
