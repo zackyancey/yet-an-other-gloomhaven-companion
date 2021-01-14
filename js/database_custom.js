@@ -5,6 +5,7 @@ classNames_custom = {
   cf: "Chieftan",
   bk: "Brightspark",
   ae: "Amber Aegis",
+  ar: "Artificer",
 }
 
 attack_modifiers_categories_custom = [
@@ -731,6 +732,136 @@ attack_modifiers_categories_custom = [
         "points": 14,
         "image": "attack-modifiers/AE/am-ae-10.jpg",
         "xws": "amae14"
+      },
+    ]
+  },
+  {
+    "name": "am-ar",
+    "cards": [
+      {
+        "name": "am-AR-00",
+        "points": 0,
+        "image": "attack-modifiers/AR/am-ar-01.png",
+        "xws": "amar00"
+      },
+
+      {
+        "name": "am-AR-01",
+        "points": 1,
+        "image": "attack-modifiers/AR/am-ar-02.png",
+        "xws": "amar01"
+      },
+
+      {
+        "name": "am-AR-02",
+        "points": 2,
+        "image": "attack-modifiers/AR/am-ar-03.png",
+        "xws": "amar02"
+      },
+
+      {
+        "name": "am-AR-03",
+        "points": 3,
+        "image": "attack-modifiers/AR/am-ar-03.png",
+        "xws": "amar03"
+      },
+
+      {
+        "name": "am-AR-04",
+        "points": 4,
+        "image": "attack-modifiers/AR/am-ar-04.png",
+        "xws": "amar04"
+      },
+
+      {
+        "name": "am-AR-05",
+        "points": 5,
+        "image": "attack-modifiers/AR/am-ar-04.png",
+        "xws": "amar05"
+      },
+
+      {
+        "name": "am-AR-06",
+        "points": 6,
+        "image": "attack-modifiers/AR/am-ar-05.png",
+        "xws": "amar06"
+      },
+
+      {
+        "name": "am-AR-07",
+        "points": 7,
+        "image": "attack-modifiers/AR/am-ar-05.png",
+        "xws": "amar07"
+      },
+
+      {
+        "name": "am-AR-08",
+        "points": 8,
+        "image": "attack-modifiers/AR/am-ar-06.png",
+        "xws": "amar08"
+      },
+
+      {
+        "name": "am-AR-09",
+        "points": 9,
+        "image": "attack-modifiers/AR/am-ar-06.png",
+        "xws": "amar09"
+      },
+
+      {
+        "name": "am-AR-10",
+        "points": 10,
+        "image": "attack-modifiers/AR/am-ar-07.png",
+        "xws": "amar10"
+      },
+
+      {
+        "name": "am-AR-11",
+        "points": 11,
+        "image": "attack-modifiers/AR/am-ar-07.png",
+        "xws": "amar11"
+      },
+
+      {
+        "name": "am-AR-12",
+        "points": 12,
+        "image": "attack-modifiers/AR/am-ar-08.png",
+        "xws": "amar12"
+      },
+
+      {
+        "name": "am-AR-13",
+        "points": 13,
+        "image": "attack-modifiers/AR/am-ar-08.png",
+        "xws": "amar13"
+      },
+
+      {
+        "name": "am-AR-14",
+        "points": 14,
+        "image": "attack-modifiers/AR/am-ar-09.png",
+        "xws": "amar14"
+      },
+
+      {
+        "name": "am-AR-15",
+        "points": 15,
+        "image": "attack-modifiers/AR/am-ar-09.png",
+        "xws": "amar15"
+      },
+
+      {
+        "name": "am-AR-16",
+        "points": 16,
+        "image": "attack-modifiers/AR/am-ar-10.png",
+        "xws": "amar16"
+      },
+
+      {
+        "name": "am-AR-17",
+        "points": 17,
+        "image": "attack-modifiers/AR/am-ar-10.png",
+        "xws": "amar17"
       },
     ]
   },
@@ -2104,6 +2235,225 @@ abilities_custom = [
         "points": 33,
         "image": "character-ability-cards/AE/supreme-authority.png",
         "xws": "supremeauthority",
+        "level": 9
+      },
+    ]
+  },
+  {
+    "name": "ar",
+    "max": 9,
+    "hidden": false,
+    "position": 8,
+
+    "cards": [
+      {
+        "name": "ar-back",
+        "points": 0,
+        "image": "character-ability-cards/AR/ar-back.png",
+        "xws": "aeback",
+        "level": 0
+      },
+      {
+        "name": "rules",
+        "points": 3,
+        "image": "character-ability-cards/AR/rules.png",
+        "xws": "rules",
+        "level": 0
+      },
+      {
+        "name": "jury-rigged machine",
+        "points": 3,
+        "image": "character-ability-cards/AR/jury-rigged-machine.png",
+        "xws": "jury-riggedmachine",
+        "level": 1
+      },
+      {
+        "name": "improvised mortar",
+        "points": 4,
+        "image": "character-ability-cards/AR/improvised-mortar.png",
+        "xws": "improvisedmortar",
+        "level": 1
+      },
+      {
+        "name": "fragmentation grenade",
+        "points": 5,
+        "image": "character-ability-cards/AR/fragmentation-grenade.png",
+        "xws": "fragmentationgrenade",
+        "level": 1
+      },
+      {
+        "name": "recycle parts",
+        "points": 6,
+        "image": "character-ability-cards/AR/recycle-parts.png",
+        "xws": "recycleparts",
+        "level": 1
+      },
+      {
+        "name": "repurpose leftovers",
+        "points": 7,
+        "image": "character-ability-cards/AR/repurpose-leftovers.png",
+        "xws": "repurposeleftovers",
+        "level": 1
+      },
+      {
+        "name": "salvage grappler",
+        "points": 8,
+        "image": "character-ability-cards/AR/salvage-grappler.png",
+        "xws": "salvagegrappler",
+        "level": 1
+      },
+      {
+        "name": "phase field emitter",
+        "points": 9,
+        "image": "character-ability-cards/AR/phase-field-emitter.png",
+        "xws": "phasefieldemitter",
+        "level": 1
+      },
+      {
+        "name": "gravity inverter module",
+        "points": 10,
+        "image": "character-ability-cards/AR/gravity-inverter-module.png",
+        "xws": "gravityinvertermodule",
+        "level": 1
+      },
+      {
+        "name": "particle ray beam",
+        "points": 11,
+        "image": "character-ability-cards/AR/particle-ray-beam.png",
+        "xws": "particleraybeam",
+        "level": 1
+      },
+      {
+        "name": "power modulation",
+        "points": 12,
+        "image": "character-ability-cards/AR/power-modulation.png",
+        "xws": "powermodulation",
+        "level": 0
+      },
+      {
+        "name": "remote control",
+        "points": 13,
+        "image": "character-ability-cards/AR/remote-control.png",
+        "xws": "remotecontrol",
+        "level": 0
+      },
+      {
+        "name": "improvised exosuit",
+        "points": 14,
+        "image": "character-ability-cards/AR/improvised-exosuit.png",
+        "xws": "improvisedexosuit",
+        "level": 0
+      },
+      {
+        "name": "trajectory diverter",
+        "points": 15,
+        "image": "character-ability-cards/AR/trajectory-diverter.png",
+        "xws": "trajectorydiverter",
+        "level": 2
+      },
+      {
+        "name": "elemental condenser",
+        "points": 16,
+        "image": "character-ability-cards/AR/elemental-condenser.png",
+        "xws": "elementalcondenser",
+        "level": 2
+      },
+      {
+        "name": "trundging bulwark",
+        "points": 17,
+        "image": "character-ability-cards/AR/trundging-bulwark.png",
+        "xws": "trundgingbulwark",
+        "level": 3
+      },
+      {
+        "name": "retrofit weapons",
+        "points": 18,
+        "image": "character-ability-cards/AR/retrofit-weapons.png",
+        "xws": "retrofitweapons",
+        "level": 3
+      },
+      {
+        "name": "energy transmission",
+        "points": 19,
+        "image": "character-ability-cards/AR/energy-transmission.png",
+        "xws": "energytransmission",
+        "level": 4
+      },
+      {
+        "name": "ransack clutter",
+        "points": 20,
+        "image": "character-ability-cards/AR/ransack-clutter.png",
+        "xws": "ransackclutter",
+        "level": 4
+      },
+      {
+        "name": "launch skywards",
+        "points": 21,
+        "image": "character-ability-cards/AR/launch-skywards.png",
+        "xws": "launchskywards",
+        "level": 5
+      },
+      {
+        "name": "oscillating projector",
+        "points": 22,
+        "image": "character-ability-cards/AR/oscillating-projector.png",
+        "xws": "oscillatingprojector",
+        "level": 5
+      },
+      {
+        "name": "galvanic coil",
+        "points": 23,
+        "image": "character-ability-cards/AR/galvanic-coil.png",
+        "xws": "galvaniccoil",
+        "level": 6
+      },
+      {
+        "name": "march of machines",
+        "points": 24,
+        "image": "character-ability-cards/AR/march-of-machines.png",
+        "xws": "marchofmachines",
+        "level": 6
+      },
+      {
+        "name": "seeker missiles",
+        "points": 25,
+        "image": "character-ability-cards/AR/seeker-missiles.png",
+        "xws": "seekermissiles",
+        "level": 7
+      },
+      {
+        "name": "reinforce armor",
+        "points": 26,
+        "image": "character-ability-cards/AR/reinforce-armor.png",
+        "xws": "reinforcearmor",
+        "level": 7
+      },
+      {
+        "name": "instant relocation matrix",
+        "points": 27,
+        "image": "character-ability-cards/AR/instant-relocation-matrix.png",
+        "xws": "instantrelocationmatrix",
+        "level": 8
+      },
+      {
+        "name": "double-barrel railcaster",
+        "points": 28,
+        "image": "character-ability-cards/AR/double-barrel-railcaster.png",
+        "xws": "double-barrelrailcaster",
+        "level": 8
+      },
+      {
+        "name": "annihilating contraption",
+        "points": 29,
+        "image": "character-ability-cards/AR/annihilating-contraption.png",
+        "xws": "annihilatingcontraption",
+        "level": 9
+      },
+      {
+        "name": "perfected exosuit",
+        "points": 30,
+        "image": "character-ability-cards/AR/perfected-exosuit.png",
+        "xws": "perfectedexosuit",
         "level": 9
       },
     ]

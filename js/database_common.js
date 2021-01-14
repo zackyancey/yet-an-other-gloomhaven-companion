@@ -1618,6 +1618,53 @@ allItems = [
             },
         ]
     },
+    {
+        "name": "Artificer",
+        "items": [
+            {
+                "name": "power modulator",
+                "points": 1501,
+                "image": "items/AR/power-modulator.png",
+                "xws": "powermodulator",
+                "type": "2H"
+            },
+            {
+                "name": "steam piston hammer",
+                "points": 1502,
+                "image": "items/AR/steam-piston-hammer.png",
+                "xws": "steampistonhammer",
+                "type": "1H"
+            },
+            {
+                "name": "spider climb gloves",
+                "points": 1503,
+                "image": "items/AR/spider-climb-gloves.png",
+                "xws": "spiderclimbgloves",
+                "type": "1H"
+            },
+            {
+                "name": "gravity inversion pads",
+                "points": 1504,
+                "image": "items/AR/gravity-inversion-pads.png",
+                "xws": "gravityinversionpads",
+                "type": "consumable"
+            },
+            {
+                "name": "delicate model",
+                "points": 1505,
+                "image": "items/AR/delicate-model.png",
+                "xws": "delicatemodel",
+                "type": "consumable"
+            },
+            {
+                "name": "auscudec of the makers",
+                "points": 1506,
+                "image": "items/AR/auscudec-of-the-makers.png",
+                "xws": "auscudecofthemakers",
+                "type": "2H"
+            },
+        ]
+    },
 ]
 
 enhancementsCategories = [        
