@@ -4,6 +4,7 @@ classNames_custom = {
   fb: 'Frostborn',
   cf: "Chieftan",
   bk: "Brightspark",
+  ae: "Amber Aegis",
 }
 
 attack_modifiers_categories_custom = [
@@ -623,7 +624,116 @@ attack_modifiers_categories_custom = [
         "xws": "ambk13"
       },
     ]
-  }
+  },
+  {
+    "name": "am-ae",
+    "cards": [
+      {
+        "name": "am-AE-00",
+        "points": 0,
+        "image": "attack-modifiers/AE/am-ae-01.jpg",
+        "xws": "amae00"
+      },
+
+      {
+        "name": "am-AE-01",
+        "points": 1,
+        "image": "attack-modifiers/AE/am-ae-02.jpg",
+        "xws": "amae01"
+      },
+
+      {
+        "name": "am-AE-02",
+        "points": 2,
+        "image": "attack-modifiers/AE/am-ae-03.jpg",
+        "xws": "amae02"
+      },
+
+      {
+        "name": "am-AE-03",
+        "points": 3,
+        "image": "attack-modifiers/AE/am-ae-04.png",
+        "xws": "amae03"
+      },
+
+      {
+        "name": "am-AE-04",
+        "points": 4,
+        "image": "attack-modifiers/AE/am-ae-04.png",
+        "xws": "amae04"
+      },
+
+      {
+        "name": "am-AE-05",
+        "points": 5,
+        "image": "attack-modifiers/AE/am-ae-04.png",
+        "xws": "amae05"
+      },
+
+      {
+        "name": "am-AE-06",
+        "points": 6,
+        "image": "attack-modifiers/AE/am-ae-04.png",
+        "xws": "amae06"
+      },
+
+      {
+        "name": "am-AE-07",
+        "points": 7,
+        "image": "attack-modifiers/AE/am-ae-05.jpg",
+        "xws": "amae07"
+      },
+
+      {
+        "name": "am-AE-08",
+        "points": 8,
+        "image": "attack-modifiers/AE/am-ae-06.jpg",
+        "xws": "amae08"
+      },
+
+      {
+        "name": "am-AE-09",
+        "points": 9,
+        "image": "attack-modifiers/AE/am-ae-06.jpg",
+        "xws": "amae09"
+      },
+
+      {
+        "name": "am-AE-10",
+        "points": 10,
+        "image": "attack-modifiers/AE/am-ae-07.jpg",
+        "xws": "amae10"
+      },
+
+      {
+        "name": "am-AE-11",
+        "points": 11,
+        "image": "attack-modifiers/AE/am-ae-07.jpg",
+        "xws": "amae11"
+      },
+
+      {
+        "name": "am-AE-12",
+        "points": 12,
+        "image": "attack-modifiers/AE/am-ae-08.jpg",
+        "xws": "amae12"
+      },
+
+      {
+        "name": "am-AE-13",
+        "points": 13,
+        "image": "attack-modifiers/AE/am-ae-09.jpg",
+        "xws": "amae13"
+      },
+
+      {
+        "name": "am-AE-14",
+        "points": 14,
+        "image": "attack-modifiers/AE/am-ae-10.jpg",
+        "xws": "amae14"
+      },
+    ]
+  },
 ]
 
 
@@ -1761,6 +1871,239 @@ abilities_custom = [
         "points": 32,
         "image": "character-ability-cards/BK/ultraviolet-rays.png",
         "xws": "ultravioletrays",
+        "level": 9
+      },
+    ]
+  },
+  {
+    "name": "ae",
+    "max": 11,
+    "hidden": false,
+    "position": 7,
+
+    "cards": [
+      {
+        "name": "ae-back",
+        "points": 0,
+        "image": "character-ability-cards/AE/ae-back.png",
+        "xws": "aeback",
+        "level": 0
+      },
+      {
+        "name": "rules",
+        "points": 3,
+        "image": "character-ability-cards/AE/rules.png",
+        "xws": "rules",
+        "level": 0
+      },
+      {
+        "name": "encasing webs",
+        "points": 4,
+        "image": "character-ability-cards/AE/encasing-webs.png",
+        "xws": "encasingwebs",
+        "level": 1
+      },
+      {
+        "name": "horned carapace",
+        "points": 5,
+        "image": "character-ability-cards/AE/horned-carapace.png",
+        "xws": "hornedcarapace",
+        "level": 1
+      },
+      {
+        "name": "retribution of the hive",
+        "points": 6,
+        "image": "character-ability-cards/AE/retribution-of-the-hive.png",
+        "xws": "retributionofthehive",
+        "level": 1
+      },
+      {
+        "name": "sentry swarm",
+        "points": 7,
+        "image": "character-ability-cards/AE/sentry-swarm.png",
+        "xws": "sentryswarm",
+        "level": 1
+      },
+      {
+        "name": "toxic spittle",
+        "points": 8,
+        "image": "character-ability-cards/AE/toxic-spittle.png",
+        "xws": "toxicspittle",
+        "level": 1
+      },
+      {
+        "name": "burning stings",
+        "points": 9,
+        "image": "character-ability-cards/AE/burning-stings.png",
+        "xws": "burningstings",
+        "level": 1
+      },
+      {
+        "name": "anti-venom",
+        "points": 10,
+        "image": "character-ability-cards/AE/anti-venom.png",
+        "xws": "anti-venom",
+        "level": 1
+      },
+      {
+        "name": "nurture the weak",
+        "points": 11,
+        "image": "character-ability-cards/AE/nurture-the-weak.png",
+        "xws": "nurturetheweak",
+        "level": 1
+      },
+      {
+        "name": "shelter the nest",
+        "points": 12,
+        "image": "character-ability-cards/AE/shelter-the-nest.png",
+        "xws": "shelterthenest",
+        "level": 1
+      },
+      {
+        "name": "seek nourishment",
+        "points": 13,
+        "image": "character-ability-cards/AE/seek-nourishment.png",
+        "xws": "seeknourishment",
+        "level": 1
+      },
+      {
+        "name": "repel intruders",
+        "points": 14,
+        "image": "character-ability-cards/AE/repel-intruders.png",
+        "xws": "repelintruders",
+        "level": 1
+      },
+      {
+        "name": "overwhelming swarm",
+        "points": 15,
+        "image": "character-ability-cards/AE/overwhelming-swarm.png",
+        "xws": "overwhelmingswarm",
+        "level": 0
+      },
+      {
+        "name": "march of multitudes",
+        "points": 16,
+        "image": "character-ability-cards/AE/march-of-multitudes.png",
+        "xws": "marchofmultitudes",
+        "level": 0
+      },
+      {
+        "name": "cultivate",
+        "points": 17,
+        "image": "character-ability-cards/AE/cultivate.png",
+        "xws": "cultivate",
+        "level": 0
+      },
+      {
+        "name": "clad in spikes",
+        "points": 18,
+        "image": "character-ability-cards/AE/clad-in-spikes.png",
+        "xws": "cladinspikes",
+        "level": 2
+      },
+      {
+        "name": "steelsilk weaver",
+        "points": 19,
+        "image": "character-ability-cards/AE/steelsilk-weaver.png",
+        "xws": "steelsilkweaver",
+        "level": 2
+      },
+      {
+        "name": "maddening chatter",
+        "points": 20,
+        "image": "character-ability-cards/AE/maddening-chatter.png",
+        "xws": "maddeningchatter",
+        "level": 3
+      },
+      {
+        "name": "violent outlash",
+        "points": 21,
+        "image": "character-ability-cards/AE/violent-outlash.png",
+        "xws": "violentoutlash",
+        "level": 3
+      },
+      {
+        "name": "ferocious proliferation",
+        "points": 22,
+        "image": "character-ability-cards/AE/ferocious-proliferation.png",
+        "xws": "ferociousproliferation",
+        "level": 4
+      },
+      {
+        "name": "alate migration",
+        "points": 23,
+        "image": "character-ability-cards/AE/alate-migration.png",
+        "xws": "alatemigration",
+        "level": 4
+      },
+      {
+        "name": "birthing chambers",
+        "points": 24,
+        "image": "character-ability-cards/AE/birthing-chambers.png",
+        "xws": "birthingchambers",
+        "level": 5
+      },
+      {
+        "name": "burrow under",
+        "points": 25,
+        "image": "character-ability-cards/AE/burrow-under.png",
+        "xws": "burrowunder",
+        "level": 5
+      },
+      {
+        "name": "assimilate adversaries",
+        "points": 26,
+        "image": "character-ability-cards/AE/assimilate-adversaries.png",
+        "xws": "assimilateadversaries",
+        "level": 6
+      },
+      {
+        "name": "frantic migration",
+        "points": 27,
+        "image": "character-ability-cards/AE/frantic-migration.png",
+        "xws": "franticmigration",
+        "level": 6
+      },
+      {
+        "name": "stalk the prey",
+        "points": 28,
+        "image": "character-ability-cards/AE/stalk-the-prey.png",
+        "xws": "stalktheprey",
+        "level": 7
+      },
+      {
+        "name": "lacerating horde",
+        "points": 29,
+        "image": "character-ability-cards/AE/lacerating-horde.png",
+        "xws": "laceratinghorde",
+        "level": 7
+      },
+      {
+        "name": "coordinated infestation",
+        "points": 30,
+        "image": "character-ability-cards/AE/coordinated-infestation.png",
+        "xws": "coordinatedinfestation",
+        "level": 8
+      },
+      {
+        "name": "erupting stingers",
+        "points": 31,
+        "image": "character-ability-cards/AE/erupting-stingers.png",
+        "xws": "eruptingstingers",
+        "level": 8
+      },
+      {
+        "name": "divide and conquer",
+        "points": 32,
+        "image": "character-ability-cards/AE/divide-and-conquer.png",
+        "xws": "divideandconquer",
+        "level": 9
+      },
+      {
+        "name": "supreme authority",
+        "points": 33,
+        "image": "character-ability-cards/AE/supreme-authority.png",
+        "xws": "supremeauthority",
         "level": 9
       },
     ]
