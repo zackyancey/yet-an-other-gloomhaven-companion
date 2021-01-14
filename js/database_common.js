@@ -1665,6 +1665,18 @@ allItems = [
             },
         ]
     },
+    {
+        "name": "Hollowpact",
+        "items": [
+            {
+                "name": "cleansed voidheart",
+                "points": 1601,
+                "image": "items/HP/cleansed-voidheart.png",
+                "xws": "cleansedvoidheart",
+                "type": "body"
+            },
+        ]
+    },
 ]
 
 enhancementsCategories = [        

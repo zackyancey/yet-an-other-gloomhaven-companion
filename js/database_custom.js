@@ -6,6 +6,7 @@ classNames_custom = {
   bk: "Brightspark",
   ae: "Amber Aegis",
   ar: "Artificer",
+  hp: "Hollowpact",
 }
 
 attack_modifiers_categories_custom = [
@@ -863,6 +864,164 @@ attack_modifiers_categories_custom = [
         "image": "attack-modifiers/AR/am-ar-10.png",
         "xws": "amar17"
       },
+    ]
+  },
+  {
+    "name": "am-hp",
+    "cards": [
+      {
+        "name": "am-HP-00",
+        "points": 0,
+        "image": "attack-modifiers/HP/am-hp-01.png",
+        "xws": "amhp00"
+        },
+
+        {
+        "name": "am-HP-01",
+        "points": 1,
+        "image": "attack-modifiers/HP/am-hp-02.png",
+        "xws": "amhp01"
+        },
+
+        {
+        "name": "am-HP-02",
+        "points": 2,
+        "image": "attack-modifiers/HP/am-hp-03.png",
+        "xws": "amhp02"
+        },
+
+        {
+        "name": "am-HP-03",
+        "points": 3,
+        "image": "attack-modifiers/HP/am-hp-04.png",
+        "xws": "amhp03"
+        },
+
+        {
+        "name": "am-HP-04",
+        "points": 4,
+        "image": "attack-modifiers/HP/am-hp-04.png",
+        "xws": "amhp04"
+        },
+
+        {
+        "name": "am-HP-05",
+        "points": 5,
+        "image": "attack-modifiers/HP/am-hp-05.png",
+        "xws": "amhp05"
+        },
+
+        {
+        "name": "am-HP-06",
+        "points": 6,
+        "image": "attack-modifiers/HP/am-hp-05.png",
+        "xws": "amhp06"
+        },
+
+        {
+        "name": "am-HP-07",
+        "points": 7,
+        "image": "attack-modifiers/HP/am-hp-06.png",
+        "xws": "amhp07"
+        },
+
+        {
+        "name": "am-HP-08",
+        "points": 8,
+        "image": "attack-modifiers/HP/am-hp-06.png",
+        "xws": "amhp08"
+        },
+
+        {
+        "name": "am-HP-09",
+        "points": 9,
+        "image": "attack-modifiers/HP/am-hp-06.png",
+        "xws": "amhp09"
+        },
+
+        {
+        "name": "am-HP-10",
+        "points": 10,
+        "image": "attack-modifiers/HP/am-hp-07.png",
+        "xws": "amhp10"
+        },
+
+        {
+        "name": "am-HP-11",
+        "points": 11,
+        "image": "attack-modifiers/HP/am-hp-08.png",
+        "xws": "amhp11"
+        },
+
+        {
+        "name": "am-HP-12",
+        "points": 12,
+        "image": "attack-modifiers/HP/am-hp-08.png",
+        "xws": "amhp12"
+        },
+
+        {
+        "name": "am-HP-13",
+        "points": 13,
+        "image": "attack-modifiers/HP/am-hp-09.png",
+        "xws": "amhp13"
+        },
+
+        {
+        "name": "am-HP-14",
+        "points": 14,
+        "image": "attack-modifiers/HP/am-hp-09.png",
+        "xws": "amhp14"
+        },
+
+        {
+        "name": "am-HP-15",
+        "points": 15,
+        "image": "attack-modifiers/HP/am-hp-10.png",
+        "xws": "amhp15"
+        },
+
+        {
+        "name": "am-HP-16",
+        "points": 16,
+        "image": "attack-modifiers/HP/am-hp-11.png",
+        "xws": "amhp16"
+        },
+
+        {
+        "name": "am-HP-17",
+        "points": 17,
+        "image": "attack-modifiers/HP/am-hp-11.png",
+        "xws": "amhp17"
+        },
+
+        {
+        "name": "am-HP-18",
+        "points": 18,
+        "image": "attack-modifiers/HP/am-hp-12.png",
+        "xws": "amhp18"
+        },
+
+        {
+        "name": "am-HP-19",
+        "points": 19,
+        "image": "attack-modifiers/HP/am-hp-12.png",
+        "xws": "amhp19"
+        },
+
+        {
+        "name": "am-HP-20",
+        "points": 20,
+        "image": "attack-modifiers/HP/am-hp-12.png",
+        "xws": "amhp20"
+        },
+
+        {
+        "name": "am-HP-21",
+        "points": 21,
+        "image": "attack-modifiers/HP/am-hp-12.png",
+        "xws": "amhp21"
+        },
     ]
   },
 ]
@@ -2456,6 +2615,232 @@ abilities_custom = [
         "xws": "perfectedexosuit",
         "level": 9
       },
+    ]
+  },
+  {
+    "name": "hp",
+    "max": 10,
+    "hidden": false,
+    "position": 9,
+
+    "cards": [
+      {
+        "name": "hp-back",
+        "points": 0,
+        "image": "character-ability-cards/HP/hp-back.png",
+        "xws": "hpback",
+        "level": 0
+      },
+      {
+        "name": "rules",
+        "points": 2,
+        "image": "character-ability-cards/HP/rules.png",
+        "xws": "rules",
+        "level": 0
+      },
+      {
+        "name": "void step",
+        "points": 3,
+        "image": "character-ability-cards/HP/void-step.png",
+        "xws": "voidstep",
+        "level": 1
+        },
+        {
+        "name": "nether blade",
+        "points": 4,
+        "image": "character-ability-cards/HP/nether-blade.png",
+        "xws": "netherblade",
+        "level": 1
+        },
+        {
+        "name": "channel the void",
+        "points": 5,
+        "image": "character-ability-cards/HP/channel-the-void.png",
+        "xws": "channelthevoid",
+        "level": 1
+        },
+        {
+        "name": "withering deluge",
+        "points": 6,
+        "image": "character-ability-cards/HP/withering-deluge.png",
+        "xws": "witheringdeluge",
+        "level": 1
+        },
+        {
+        "name": "enervating strike",
+        "points": 7,
+        "image": "character-ability-cards/HP/enervating-strike.png",
+        "xws": "enervatingstrike",
+        "level": 1
+        },
+        {
+        "name": "borrowed vitality",
+        "points": 8,
+        "image": "character-ability-cards/HP/borrowed-vitality.png",
+        "xws": "borrowedvitality",
+        "level": 1
+        },
+        {
+        "name": "untethered advance",
+        "points": 9,
+        "image": "character-ability-cards/HP/untethered-advance.png",
+        "xws": "untetheredadvance",
+        "level": 1
+        },
+        {
+        "name": "touch of the void",
+        "points": 10,
+        "image": "character-ability-cards/HP/touch-of-the-void.png",
+        "xws": "touchofthevoid",
+        "level": 1
+        },
+        {
+        "name": "find an opening",
+        "points": 11,
+        "image": "character-ability-cards/HP/find-an-opening.png",
+        "xws": "findanopening",
+        "level": 1
+        },
+        {
+        "name": "reaching darkness",
+        "points": 12,
+        "image": "character-ability-cards/HP/reaching-darkness.png",
+        "xws": "reachingdarkness",
+        "level": 1
+        },
+        {
+        "name": "one with nothingness",
+        "points": 13,
+        "image": "character-ability-cards/HP/one-with-nothingness.png",
+        "xws": "onewithnothingness",
+        "level": 0
+        },
+        {
+        "name": "hollow embrace",
+        "points": 14,
+        "image": "character-ability-cards/HP/hollow-embrace.png",
+        "xws": "hollowembrace",
+        "level": 0
+        },
+        {
+        "name": "greed before need",
+        "points": 15,
+        "image": "character-ability-cards/HP/greed-before-need.png",
+        "xws": "greedbeforeneed",
+        "level": 0
+        },
+        {
+        "name": "nether binding",
+        "points": 16,
+        "image": "character-ability-cards/HP/nether-binding.png",
+        "xws": "netherbinding",
+        "level": 2
+        },
+        {
+        "name": "shrouded grasp",
+        "points": 17,
+        "image": "character-ability-cards/HP/shrouded-grasp.png",
+        "xws": "shroudedgrasp",
+        "level": 2
+        },
+        {
+        "name": "empowered assault",
+        "points": 18,
+        "image": "character-ability-cards/HP/empowered-assault.png",
+        "xws": "empoweredassault",
+        "level": 3
+        },
+        {
+        "name": "magestic malevolence",
+        "points": 19,
+        "image": "character-ability-cards/HP/magestic-malevolence.png",
+        "xws": "magesticmalevolence",
+        "level": 3
+        },
+        {
+        "name": "void-enhanced armory",
+        "points": 20,
+        "image": "character-ability-cards/HP/void-enhanced-armory.png",
+        "xws": "void-enhancedarmory",
+        "level": 4
+        },
+        {
+        "name": "obliterate",
+        "points": 21,
+        "image": "character-ability-cards/HP/obliterate.png",
+        "xws": "obliterate",
+        "level": 4
+        },
+        {
+        "name": "stalking quarry",
+        "points": 22,
+        "image": "character-ability-cards/HP/stalking-quarry.png",
+        "xws": "stalkingquarry",
+        "level": 5
+        },
+        {
+        "name": "sever reality",
+        "points": 23,
+        "image": "character-ability-cards/HP/sever-reality.png",
+        "xws": "severreality",
+        "level": 5
+        },
+        {
+        "name": "enduring darkness",
+        "points": 24,
+        "image": "character-ability-cards/HP/enduring-darkness.png",
+        "xws": "enduringdarkness",
+        "level": 6
+        },
+        {
+        "name": "implosion",
+        "points": 25,
+        "image": "character-ability-cards/HP/implosion.png",
+        "xws": "implosion",
+        "level": 6
+        },
+        {
+        "name": "ruinous barrage",
+        "points": 26,
+        "image": "character-ability-cards/HP/ruinous-barrage.png",
+        "xws": "ruinousbarrage",
+        "level": 7
+        },
+        {
+        "name": "gateway to the abyss",
+        "points": 27,
+        "image": "character-ability-cards/HP/gateway-to-the-abyss.png",
+        "xws": "gatewaytotheabyss",
+        "level": 7
+        },
+        {
+        "name": "entropy unleashed",
+        "points": 28,
+        "image": "character-ability-cards/HP/entropy-unleashed.png",
+        "xws": "entropyunleashed",
+        "level": 8
+        },
+        {
+        "name": "tendrils of the night",
+        "points": 29,
+        "image": "character-ability-cards/HP/tendrils-of-the-night.png",
+        "xws": "tendrilsofthenight",
+        "level": 8
+        },
+        {
+        "name": "prescient voidmastery",
+        "points": 30,
+        "image": "character-ability-cards/HP/prescient-voidmastery.png",
+        "xws": "prescientvoidmastery",
+        "level": 9
+        },
+        {
+        "name": "no escape",
+        "points": 31,
+        "image": "character-ability-cards/HP/no-escape.png",
+        "xws": "noescape",
+        "level": 9
+        },
     ]
   },
 ]
