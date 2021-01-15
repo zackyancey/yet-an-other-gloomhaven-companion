@@ -1,3 +1,14 @@
+# About this fork
+
+This is a fork of the [gloomhaven deckbuilder](https://github.com/orichalque/yet-an-other-gloomhaven-companion) app, tweaked to be used with custom classes. You can access a hosted version here:
+
+https://zackyancey.github.io/yet-an-other-gloomhaven-companion/
+
+The hosted version includes custom classes released by the CCUG. You can find more information on those classes at [ghcustomcontent.com](https://www.ghcustomcontent.com/). You can also download this app and run it locally (see the [How to install](#How-to-install) section below) to add your own classes for playtesting. More info on how to add classes can be found [here](adding_classes.md).
+
+The rest of the readme is from the original project:
+
+---
 
 # How to use
 
