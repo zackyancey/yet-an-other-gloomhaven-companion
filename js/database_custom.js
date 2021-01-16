@@ -1,4 +1,5 @@
 classNames_custom = {
+  zz: undefined,
   bm: 'Brewmaster',
   rw: 'Rootwhisperer',
   fb: 'Frostborn',
@@ -10,6 +11,10 @@ classNames_custom = {
 }
 
 attack_modifiers_categories_custom = [
+  {
+    "name": "am-zz",
+    "cards": []
+  },
   {
     "name": "am-bm",
     "cards": [
@@ -1028,6 +1033,14 @@ attack_modifiers_categories_custom = [
 
 
 abilities_custom = [
+  {
+    "name": "zz",
+    "max": undefined,
+    "hidden": true,
+    "position": 0,
+
+    cards: []
+  },
   {
     "name": "bm",
     "max": 10,

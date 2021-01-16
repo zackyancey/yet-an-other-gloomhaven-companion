@@ -1,3 +1,7 @@
+zip.configure({
+    workerScriptsPath: "/vendor/zip-js/"
+});
+
 new Vue({
     el: '#app',
     mixins: [gearManagement, abilitiesManagement, modifiersManagement, enhancementManagement, battleGoalsManagement],
@@ -21,6 +25,13 @@ new Vue({
         specialClassValue : 0,
     },
     methods: {
+        dataURL: function (param) {
+            if (param.startsWith("blob")) {
+                return param;
+            } else {
+                return 'data/' + param
+            }
+        },
         set: function (param) {
             this.menu = param
         },

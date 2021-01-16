@@ -3,7 +3,7 @@ var abilitiesManagement = {
         /* Ability information */
         abilities : [],
         abilityCategory: null,
-        abilitiesChosen: [],        
+        abilitiesChosen: [],
         twoAbilitiesSelected: [],
         abilitiesOnBoard: [],
         longRestMode: false,
@@ -14,6 +14,119 @@ var abilitiesManagement = {
         chosenCardExchanger: null,
     },
     methods: {
+        deleteUploadedClass: function() {
+            this.abilities[0].hidden = true;
+            this.abilities[0].max = undefined;
+            this.classNames.zz = undefined;
+
+            this.abilities[0].cards.forEach(card =>{
+                if (card.image.startsWith("blob:")) {
+                    URL.revokeObjectURL(card.image)
+                }
+            })
+            this.abilities[0].cards = []
+
+            this.modifiers[0].cards.forEach(card =>{
+                if (card.image.startsWith("blob:")) {
+                    URL.revokeObjectURL(card.image)
+                }
+            })
+            this.modifiers[0].cards = []
+        },
+        uploadClass: async function(event) {
+            document.getElementById("uploaderror").textContent = "";
+            if (event.target.value == "") {
+                return;
+            }
+            document.getElementById("uploading").textContent = "Loading..."
+            this.deleteUploadedClass()
+            try {
+                blobReader = new zip.BlobReader(event.target.files[0]);
+                const zipReader = new zip.ZipReader(blobReader);
+
+                // Read the zip file
+                entries = {};
+                (await zipReader.getEntries()).forEach(entry => {
+                    entries[entry.filename] = entry;
+                });
+
+                // Read the class.json config file
+                if (!("class.json" in entries)) {
+                    throw "Couldn't find `class.json` in the zip file."
+                }
+                writer = new zip.TextWriter();
+                const class_json = JSON.parse(await entries["class.json"].getData(writer));
+
+                // Set up the class data
+                this.classNames.zz = class_json.name;
+                this.abilities[0].max = class_json.handsize
+
+                // Card back
+                back_path = class_json.back;
+                if (!(back_path in entries)) {
+                    throw "Couldn't find `" + back_path + "` in the zip file."
+                }
+                writer = new zip.BlobWriter();
+                this.abilities[0].cards.push({
+                        "name": "zz-back",
+                        "points": 0,
+                        "image": URL.createObjectURL(await entries[back_path].getData(writer)),
+                        "xws": "hpback",
+                        "level": 0
+                })
+
+                // Ability cards
+                for(var i = 0; i < class_json.abilities.length; i++) {
+                    path = class_json.abilities[i][0];
+                    level = class_json.abilities[i][1];
+
+                    if (!(path in entries)) {
+                        throw "Couldn't find `" + path + "` in the zip file."
+                    }
+
+                    writer = new zip.BlobWriter();
+                    url = URL.createObjectURL(await entries[path].getData(writer));
+
+                    this.abilities[0].cards.push({
+                        "name": path,
+                        "points": i+3,
+                        "image": URL.createObjectURL(await entries[path].getData(writer)),
+                        "xws": path,
+                        "level": level
+                    })
+                }
+
+                // Modifier cards
+                var i = 0;
+                for(var j = 0; j < class_json.modifiers.length; j++) {
+                    path = class_json.modifiers[j][0];
+                    count = class_json.modifiers[j][1];
+
+                    if (!(path in entries)) {
+                        throw "Couldn't find `" + path + "` in the zip file."
+                    }
+
+                    writer = new zip.BlobWriter();
+                    url = URL.createObjectURL(await entries[path].getData(writer))
+                    for (var k=0; k<count; k++){
+                        this.modifiers[0].cards.push({
+                            "name": path + k.toString(),
+                            "points": i,
+                            "image": url,
+                            "xws": "path"
+                          })
+                        i++;
+                    }
+                }
+
+            } catch (err) {
+                document.getElementById("uploaderror").textContent = "Error uploading class: " + err;
+                this.deleteUploadedClass();
+                event.target.value = "";
+            }
+            this.abilities[0].hidden = false;
+            document.getElementById("uploading").textContent = ""
+        },
         displayAbilities: function(param) {
             this.classChosen = true;
             this.displayModifiers(param.name.substring(0,2))
@@ -33,18 +146,18 @@ var abilitiesManagement = {
                 this.chosenCardExchanger = param
             }
         },
-        addAbility: function(card) {   
+        addAbility: function(card) {
             card.duration = 0
             if (!this.abilitiesChosen.includes(card)) {
-                if (this.abilitiesChosen.length < this.abilityCategory.max) 
+                if (this.abilitiesChosen.length < this.abilityCategory.max)
                     this.abilitiesChosen.push(card)
             } else {
                 this.removeAbility(card)
             }
         },
-        acceptAbility: function(card) {   
+        acceptAbility: function(card) {
             card.duration = 0
-            if (!this.abilitiesChosen.includes(card)) { 
+            if (!this.abilitiesChosen.includes(card)) {
                 this.abilitiesChosen.push(card)
             } else {
                 this.removeAbility(card)
@@ -54,24 +167,24 @@ var abilitiesManagement = {
             indexOfCardToRemove = this.abilitiesChosen.indexOf(card)
             this.abilitiesChosen.splice(indexOfCardToRemove, 1)
         },
-        shortRest: function() {            
+        shortRest: function() {
             this.cardsPlayed = this.abilitiesChosen.filter( card => (card.played && !card.destroyed && (card.duration == 0 || card.duration == null)))
 
             if (this.cardsPlayed.length > 0) {
                 this.shortRestMode = true
-                var cardIndexToDestroy = getRandomInt(this.cardsPlayed.length)    
+                var cardIndexToDestroy = getRandomInt(this.cardsPlayed.length)
                 this.cardToLose = this.cardsPlayed[cardIndexToDestroy]
                 this.cardToLose.destroyed = true
                 this.cardsPlayed.splice(cardIndexToDestroy, 1)
                 this.cardsPlayed.forEach(card => card.played = false)
-                
+
                 if (this.abilitiesChosen.filter(card => !card.played && !card.destroyed).length <2) {
-                    this.showRedAlert('You do not have enough cards in your end to continue.')                
+                    this.showRedAlert('You do not have enough cards in your end to continue.')
                 }
             } else {
-                this.showRedAlert('You need discarded cards to rest.')                
+                this.showRedAlert('You need discarded cards to rest.')
             }
-                
+
             this.$forceUpdate()
         },
         rerollShortRest: function() {
@@ -80,11 +193,11 @@ var abilitiesManagement = {
             this.cardsPlayed.forEach(c => c.played = true)
             this.shortRest()
             this.shortRestMode = false
-            this.$forceUpdate()            
+            this.$forceUpdate()
         },
         longRest: function() {
-            this.longRestMode = true    
-            this.$forceUpdate()    
+            this.longRestMode = true
+            this.$forceUpdate()
         },
         canRest: function() {
             return this.abilitiesChosen != null && this.abilitiesChosen.filter(card => card.played && ! card.destroyed).filter(card => card.duration == 0 || card.duration == null).length >= 2
@@ -93,20 +206,20 @@ var abilitiesManagement = {
             card.destroyed = true
             var cardsPlayed = this.abilitiesChosen.filter( card => (card.played && !card.destroyed && (card.duration == 0 || card.duration == null)))
             cardsPlayed.forEach(card => card.played = false)
-            
+
             this.abilitiesChosen.filter(elem => elem.duration > 0).forEach(elem => elem.duration --)
             this.turn ++
-            
+
             this.gearChosen.forEach(gear => {
                 if (gear.played && ! gear.lost) {
                     gear.played = false
                 }
             })
-            
+
             if (this.abilitiesChosen.filter(card => !card.played && !card.destroyed).length <2) {
                 this.showRedAlert('You do not have enough cards in your end to continue.')
             }
-            
+
             this.longRestMode = false
             this.$forceUpdate()
         },
@@ -114,8 +227,8 @@ var abilitiesManagement = {
             if (this.twoAbilitiesSelected.includes(card)) {
                 this.cancelCard(card)
             } else if (this.twoAbilitiesSelected.length < 2 && !card.played && !card.destroyed) {
-                this.twoAbilitiesSelected.push(card)                
-            }       
+                this.twoAbilitiesSelected.push(card)
+            }
         },
         cancelCard: function(card) {
             indexOfCardToRemove = this.twoAbilitiesSelected.indexOf(card)
@@ -145,16 +258,16 @@ var abilitiesManagement = {
             this.$forceUpdate()
         },
         useCard: function(card) {
-            card.numberOfTimesUsed ++     
-            this.$forceUpdate()       
-        },
-        keepAbilityOneTurn(card) {
-            card.duration = 1        
+            card.numberOfTimesUsed ++
             this.$forceUpdate()
         },
-        keepAbilityManyTurns(card) {    
+        keepAbilityOneTurn(card) {
+            card.duration = 1
+            this.$forceUpdate()
+        },
+        keepAbilityManyTurns(card) {
             card.duration = -1
-            card.numberOfTimesUsed = 0            
+            card.numberOfTimesUsed = 0
             this.$forceUpdate()
         },
         play: function() {
@@ -171,13 +284,13 @@ var abilitiesManagement = {
                     } else {
                         card.played = true
                     }
-                })   
-                this.twoAbilitiesSelected = []             
+                })
+                this.twoAbilitiesSelected = []
                 this.abilitiesChosen.filter(elem => elem.duration > 0).forEach(elem => elem.duration --)
-                this.turn ++                
+                this.turn ++
                 this.shortRestMode = false
                 this.$forceUpdate()
-            }            
+            }
         }
     }
 }

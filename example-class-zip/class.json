@@ -1,0 +1,48 @@
+{
+    "name": "Brute",
+    "back": "br-back.png",
+    "handsize": 10,
+
+    "abilities": [
+        ["eye-for-an-eye.png", 1],
+        ["grab-and-go.png", 1],
+        ["leaping-cleave.png", 1],
+        ["overwhelming-assault.png", 1],
+        ["provoking-roar.png", 1],
+        ["shield-bash.png", 1],
+        ["spare-dagger.png", 1],
+        ["sweeping-blow.png", 1],
+        ["trample.png", 1],
+        ["warding-strength.png", 1],
+        ["skewer.png", 0],
+        ["balanced-measure.png", 0],
+        ["wall-of-doom.png", 0],
+        ["fatal-advance.png", 2],
+        ["juggernaut.png", 2],
+        ["brute-force.png", 3],
+        ["hook-and-chain.png", 3],
+        ["devastating-hack.png", 4],
+        ["unstoppable-charge.png", 4],
+        ["skirmishing-maneuver.png", 5],
+        ["whirlwind.png", 5],
+        ["immovable-phalanx.png", 6],
+        ["quietus.png", 6],
+        ["crippling-offensive.png", 7],
+        ["defensive-tactics.png", 7],
+        ["frenzied-onslaught.png", 8],
+        ["selfish-retribution.png", 8],
+        ["face-your-end.png", 9],
+        ["king-of-the-hill.png", 9]
+    ],
+    "modifiers": [
+        ["br-pierce3-roll.png", 2],
+        ["br-stun-roll.png", 2],
+        ["br-disarm-roll.png", 1],
+        ["br-muddle-roll.png", 1],
+        ["br-target-roll.png", 1],
+        ["br-+1shield1.png", 1],
+        ["br-+1.png", 6],
+        ["br-+3.png", 1],
+        ["br-push-roll.png", 6]
+    ]
+}
