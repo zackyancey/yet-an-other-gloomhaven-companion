@@ -1,5 +1,5 @@
 zip.configure({
-    workerScriptsPath: "/vendor/zip-js/"
+    workerScriptsPath: "vendor/zip-js/"
 });
 
 new Vue({
@@ -9,16 +9,16 @@ new Vue({
         /* Platform information */
         menu : 'home',
         acceptedCookies: false,
-        isMobile: false,        
+        isMobile: false,
         hasOpenedXEnvelope: false,
         hasEnabledCardExchange: false,
         showSpoiler: false,
         showLockedClasses: false,
         version: 'custom',
-        alert: '',        
+        alert: '',
         classChosen : false,
 
-        /* General game information */ 
+        /* General game information */
         turn: 1,
         level: 1,
         specialClassMode : '',
@@ -41,8 +41,8 @@ new Vue({
             this.abilitiesChosen = [];
         },
         loadDatabase: function() {
-            versionCookie = Cookies.get('version')      
-            console.log(versionCookie)      
+            versionCookie = Cookies.get('version')
+            console.log(versionCookie)
             if (versionCookie != null) {
                 this.loadDatabaseVersion(versionCookie)
             } else {
@@ -56,14 +56,14 @@ new Vue({
                     this.modifiersChosen.push(modif)
                 })
             })
-            this.modifiersDrawPile = this.modifiersChosen.slice() 
+            this.modifiersDrawPile = this.modifiersChosen.slice()
             this.allGear = allItems
             this.battleGoals = battle_goals
             this.loadDatabaseVersion(this.version)
         },
         loadDatabaseVersion: function(param){
             this.version = param
-            
+
             switch(param){
                 case 'vanilla':
                     this.loadDatabaseVanilla()
@@ -85,7 +85,7 @@ new Vue({
         },
         loadDatabaseVanilla: function() {
             this.classNames = classNames
-            this.modifiers = attack_modifiers_categories          
+            this.modifiers = attack_modifiers_categories
             this.abilities = abilities
         },
         loadDatabaseFrosthaven: function() {
@@ -95,7 +95,7 @@ new Vue({
         },
         loadDatabaseJotl: function() {
             this.classNames = classNames_jotl
-            this.modifiers = attack_modifiers_categories_jotl        
+            this.modifiers = attack_modifiers_categories_jotl
             this.abilities = abilities_jotl
         },
         loadDatabaseCustom: function() {
@@ -104,15 +104,15 @@ new Vue({
             this.abilities = abilities_custom
         },
         loadXEnvelope: function() {
-            if (! this.hasOpenedXEnvelope) {            
-                console.log("Enabled")                    
+            if (! this.hasOpenedXEnvelope) {
+                console.log("Enabled")
                 this.hasOpenedXEnvelope = true
                 this.modifiers.push(XEnvelopeModifiers)
                 this.abilities.push(XEnvelopeAbilities)
             }
         },
         enableCardExchange: function() {
-            this.hasEnabledCardExchange = !this.hasEnabledCardExchange 
+            this.hasEnabledCardExchange = !this.hasEnabledCardExchange
         },
         newGame: function() {
             this.abilitiesChosen.forEach(card => {
@@ -126,8 +126,8 @@ new Vue({
             })
 
             this.resetModifiers()
-            
-            this.turn = 1            
+
+            this.turn = 1
             this.$forceUpdate()
 
         },
@@ -135,8 +135,8 @@ new Vue({
             Cookies.set("version", this.version, { expires: 365 })
             Cookies.set("abilities", JSON.stringify(this.abilitiesChosen), { expires: 365 })
             Cookies.set("modifiers", JSON.stringify(this.modifiersChosen), { expires: 365 })
-            Cookies.set("gear", JSON.stringify(this.gearChosen), { expires: 365 })    
-            this.showGreenAlert("Data saved!")       
+            Cookies.set("gear", JSON.stringify(this.gearChosen), { expires: 365 })
+            this.showGreenAlert("Data saved!")
         },
         loadData: function() {
             abilityCookie = Cookies.get('abilities')
@@ -159,7 +159,7 @@ new Vue({
                     })
                 })
             }
-            
+
             gearCookie = Cookies.get('gear')
             if (gearCookie != null) {
                 oldGear = JSON.parse(gearCookie)
@@ -185,39 +185,39 @@ new Vue({
                             cat.cards.forEach(modif => {
                                 if (modif.name === modifier.name) {
                                     this.modifiersChosen.push(modif)
-                                    this.modifiersDrawPile.push(modif)    
+                                    this.modifiersDrawPile.push(modif)
                                 }
                             })
                         })
-                        
-                        
+
+
                         this.modifiersSpecial.forEach(catModif => {
                             catModif.cards.forEach(modif => {
                                 if (modif.name === modifier.name) {
                                     this.modifiersChosen.push(modif)
-                                    this.modifiersDrawPile.push(modif)                                
+                                    this.modifiersDrawPile.push(modif)
                                 }
                             })
                         })
-                        
+
                         this.modifiers.forEach(catModif => {
                             catModif.cards.forEach(card => {
                                 if (card.name === modifier.name) {
-                                    this.modifiersChosen.push(card)                                
-                                    this.modifiersDrawPile.push(card)                                    
+                                    this.modifiersChosen.push(card)
+                                    this.modifiersDrawPile.push(card)
                                 }
-                            })                            
+                            })
                         })
                     })
-                    
+
                     this.modifiersDrawPile = this.modifiersChosen.slice()
                 }
-               
-            }            
 
-            this.newGame();        
+            }
+
+            this.newGame();
         },
-        getAcceptedCookie: function() {    
+        getAcceptedCookie: function() {
             return Cookies.get('accepted')
         },
         acceptCookie: function() {
@@ -226,19 +226,19 @@ new Vue({
         },
         showRedAlert: function(alert){
             this.alert = alert
-            $('#redAlert').show()            
+            $('#redAlert').show()
         },
         dismissAlert: function(alert) {
             $(alert).hide()
         },
         showGreenAlert: function(alert){
             this.alert = alert
-            $('#greenAlert').show()            
+            $('#greenAlert').show()
         },
         dismissGreenAlert: function(alert) {
             $('#greenAlert').hide()
         }
-    }, 
+    },
     beforeMount(){
         this.loadDatabase()
         this.loadData()
@@ -256,7 +256,7 @@ const $dropdown = $(".dropdown");
 const $dropdownToggle = $(".dropdown-toggle");
 const $dropdownMenu = $(".dropdown-menu");
 const showClass = "show";
- 
+
 $(window).on("load resize", function() {
   if (this.matchMedia("(min-width: 768px)").matches) {
     $dropdown.hover(
