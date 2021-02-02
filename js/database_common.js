@@ -125,7 +125,7 @@ attack_modifiers_base = [
         ]
     }
   ]
-  
+
 attack_modifiers_special = [
     {
         "name": "bless",
@@ -1677,9 +1677,28 @@ allItems = [
             },
         ]
     },
+    {
+        "name": "Bombard",
+        "items": [
+            {
+                "name": "cannister projectile",
+                "points": 1701,
+                "image": "items/BO/cannister-projectile.png",
+                "xws": "cannisterprojectile",
+                "type": "1H"
+            },
+            {
+                "name": "chain cannon",
+                "points": 1702,
+                "image": "items/BO/chain-cannon.png",
+                "xws": "chaincannon",
+                "type": "1H"
+            },
+        ]
+    },
 ]
 
-enhancementsCategories = [        
+enhancementsCategories = [
     {
         "name" : "plus1",
         "enhancements" : [
@@ -1709,7 +1728,7 @@ enhancementsCategories = [
     },
     {
         "name" : "base",
-        "enhancements" : [            
+        "enhancements" : [
             {
                 "name": "attack",
                 "image": "icons/base/attack.png"

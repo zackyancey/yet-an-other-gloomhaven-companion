@@ -8,6 +8,7 @@ classNames_custom = {
   ae: "Amber Aegis",
   ar: "Artificer",
   hp: "Hollowpact",
+  bo: "Bombard",
 }
 
 attack_modifiers_categories_custom = [
@@ -879,153 +880,272 @@ attack_modifiers_categories_custom = [
         "points": 0,
         "image": "attack-modifiers/HP/am-hp-01.png",
         "xws": "amhp00"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-01",
         "points": 1,
         "image": "attack-modifiers/HP/am-hp-02.png",
         "xws": "amhp01"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-02",
         "points": 2,
         "image": "attack-modifiers/HP/am-hp-03.png",
         "xws": "amhp02"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-03",
         "points": 3,
         "image": "attack-modifiers/HP/am-hp-04.png",
         "xws": "amhp03"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-04",
         "points": 4,
         "image": "attack-modifiers/HP/am-hp-04.png",
         "xws": "amhp04"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-05",
         "points": 5,
         "image": "attack-modifiers/HP/am-hp-05.png",
         "xws": "amhp05"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-06",
         "points": 6,
         "image": "attack-modifiers/HP/am-hp-05.png",
         "xws": "amhp06"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-07",
         "points": 7,
         "image": "attack-modifiers/HP/am-hp-06.png",
         "xws": "amhp07"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-08",
         "points": 8,
         "image": "attack-modifiers/HP/am-hp-06.png",
         "xws": "amhp08"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-09",
         "points": 9,
         "image": "attack-modifiers/HP/am-hp-06.png",
         "xws": "amhp09"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-10",
         "points": 10,
         "image": "attack-modifiers/HP/am-hp-07.png",
         "xws": "amhp10"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-11",
         "points": 11,
         "image": "attack-modifiers/HP/am-hp-08.png",
         "xws": "amhp11"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-12",
         "points": 12,
         "image": "attack-modifiers/HP/am-hp-08.png",
         "xws": "amhp12"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-13",
         "points": 13,
         "image": "attack-modifiers/HP/am-hp-09.png",
         "xws": "amhp13"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-14",
         "points": 14,
         "image": "attack-modifiers/HP/am-hp-09.png",
         "xws": "amhp14"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-15",
         "points": 15,
         "image": "attack-modifiers/HP/am-hp-10.png",
         "xws": "amhp15"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-16",
         "points": 16,
         "image": "attack-modifiers/HP/am-hp-11.png",
         "xws": "amhp16"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-17",
         "points": 17,
         "image": "attack-modifiers/HP/am-hp-11.png",
         "xws": "amhp17"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-18",
         "points": 18,
         "image": "attack-modifiers/HP/am-hp-12.png",
         "xws": "amhp18"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-19",
         "points": 19,
         "image": "attack-modifiers/HP/am-hp-12.png",
         "xws": "amhp19"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-20",
         "points": 20,
         "image": "attack-modifiers/HP/am-hp-12.png",
         "xws": "amhp20"
-        },
+      },
 
-        {
+      {
         "name": "am-HP-21",
         "points": 21,
         "image": "attack-modifiers/HP/am-hp-12.png",
         "xws": "amhp21"
+      },
+    ]
+  },
+  {
+    "name": "am-bo",
+    "cards": [
+      {
+        "name": "am-BO-00",
+        "points": 0,
+        "image": "attack-modifiers/BO/am-bo-01.png",
+        "xws": "ambo00"
+        },
+        {
+        "name": "am-BO-01",
+        "points": 1,
+        "image": "attack-modifiers/BO/am-bo-01.png",
+        "xws": "ambo01"
+        },
+        {
+        "name": "am-BO-02",
+        "points": 2,
+        "image": "attack-modifiers/BO/am-bo-02.png",
+        "xws": "ambo02"
+        },
+        {
+        "name": "am-BO-03",
+        "points": 3,
+        "image": "attack-modifiers/BO/am-bo-02.png",
+        "xws": "ambo03"
+        },
+        {
+        "name": "am-BO-04",
+        "points": 4,
+        "image": "attack-modifiers/BO/am-bo-03.png",
+        "xws": "ambo04"
+        },
+        {
+        "name": "am-BO-05",
+        "points": 5,
+        "image": "attack-modifiers/BO/am-bo-03.png",
+        "xws": "ambo05"
+        },
+        {
+        "name": "am-BO-06",
+        "points": 6,
+        "image": "attack-modifiers/BO/am-bo-04.png",
+        "xws": "ambo06"
+        },
+        {
+        "name": "am-BO-07",
+        "points": 7,
+        "image": "attack-modifiers/BO/am-bo-04.png",
+        "xws": "ambo07"
+        },
+        {
+        "name": "am-BO-08",
+        "points": 8,
+        "image": "attack-modifiers/BO/am-bo-05.png",
+        "xws": "ambo08"
+        },
+        {
+        "name": "am-BO-09",
+        "points": 9,
+        "image": "attack-modifiers/BO/am-bo-06.png",
+        "xws": "ambo09"
+        },
+        {
+        "name": "am-BO-10",
+        "points": 10,
+        "image": "attack-modifiers/BO/am-bo-07.png",
+        "xws": "ambo10"
+        },
+        {
+        "name": "am-BO-11",
+        "points": 11,
+        "image": "attack-modifiers/BO/am-bo-07.png",
+        "xws": "ambo11"
+        },
+        {
+        "name": "am-BO-12",
+        "points": 12,
+        "image": "attack-modifiers/BO/am-bo-08.png",
+        "xws": "ambo12"
+        },
+        {
+        "name": "am-BO-13",
+        "points": 13,
+        "image": "attack-modifiers/BO/am-bo-08.png",
+        "xws": "ambo13"
+        },
+        {
+        "name": "am-BO-14",
+        "points": 14,
+        "image": "attack-modifiers/BO/am-bo-09.png",
+        "xws": "ambo14"
+        },
+        {
+        "name": "am-BO-15",
+        "points": 15,
+        "image": "attack-modifiers/BO/am-bo-10.png",
+        "xws": "ambo15"
+        },
+        {
+        "name": "am-BO-16",
+        "points": 16,
+        "image": "attack-modifiers/BO/am-bo-10.png",
+        "xws": "ambo16"
+        },
+        {
+        "name": "am-BO-17",
+        "points": 17,
+        "image": "attack-modifiers/BO/am-bo-11.png",
+        "xws": "ambo17"
+        },
+        {
+        "name": "am-BO-18",
+        "points": 18,
+        "image": "attack-modifiers/BO/am-bo-11.png",
+        "xws": "ambo18"
         },
     ]
   },
@@ -2657,203 +2777,422 @@ abilities_custom = [
         "image": "character-ability-cards/HP/void-step.png",
         "xws": "voidstep",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "nether blade",
         "points": 4,
         "image": "character-ability-cards/HP/nether-blade.png",
         "xws": "netherblade",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "channel the void",
         "points": 5,
         "image": "character-ability-cards/HP/channel-the-void.png",
         "xws": "channelthevoid",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "withering deluge",
         "points": 6,
         "image": "character-ability-cards/HP/withering-deluge.png",
         "xws": "witheringdeluge",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "enervating strike",
         "points": 7,
         "image": "character-ability-cards/HP/enervating-strike.png",
         "xws": "enervatingstrike",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "borrowed vitality",
         "points": 8,
         "image": "character-ability-cards/HP/borrowed-vitality.png",
         "xws": "borrowedvitality",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "untethered advance",
         "points": 9,
         "image": "character-ability-cards/HP/untethered-advance.png",
         "xws": "untetheredadvance",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "touch of the void",
         "points": 10,
         "image": "character-ability-cards/HP/touch-of-the-void.png",
         "xws": "touchofthevoid",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "find an opening",
         "points": 11,
         "image": "character-ability-cards/HP/find-an-opening.png",
         "xws": "findanopening",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "reaching darkness",
         "points": 12,
         "image": "character-ability-cards/HP/reaching-darkness.png",
         "xws": "reachingdarkness",
         "level": 1
-        },
-        {
+      },
+      {
         "name": "one with nothingness",
         "points": 13,
         "image": "character-ability-cards/HP/one-with-nothingness.png",
         "xws": "onewithnothingness",
         "level": 0
-        },
-        {
+      },
+      {
         "name": "hollow embrace",
         "points": 14,
         "image": "character-ability-cards/HP/hollow-embrace.png",
         "xws": "hollowembrace",
         "level": 0
-        },
-        {
+      },
+      {
         "name": "greed before need",
         "points": 15,
         "image": "character-ability-cards/HP/greed-before-need.png",
         "xws": "greedbeforeneed",
         "level": 0
-        },
-        {
+      },
+      {
         "name": "nether binding",
         "points": 16,
         "image": "character-ability-cards/HP/nether-binding.png",
         "xws": "netherbinding",
         "level": 2
-        },
-        {
+      },
+      {
         "name": "shrouded grasp",
         "points": 17,
         "image": "character-ability-cards/HP/shrouded-grasp.png",
         "xws": "shroudedgrasp",
         "level": 2
-        },
-        {
+      },
+      {
         "name": "empowered assault",
         "points": 18,
         "image": "character-ability-cards/HP/empowered-assault.png",
         "xws": "empoweredassault",
         "level": 3
-        },
-        {
+      },
+      {
         "name": "magestic malevolence",
         "points": 19,
         "image": "character-ability-cards/HP/magestic-malevolence.png",
         "xws": "magesticmalevolence",
         "level": 3
-        },
-        {
+      },
+      {
         "name": "void-enhanced armory",
         "points": 20,
         "image": "character-ability-cards/HP/void-enhanced-armory.png",
         "xws": "void-enhancedarmory",
         "level": 4
-        },
-        {
+      },
+      {
         "name": "obliterate",
         "points": 21,
         "image": "character-ability-cards/HP/obliterate.png",
         "xws": "obliterate",
         "level": 4
-        },
-        {
+      },
+      {
         "name": "stalking quarry",
         "points": 22,
         "image": "character-ability-cards/HP/stalking-quarry.png",
         "xws": "stalkingquarry",
         "level": 5
-        },
-        {
+      },
+      {
         "name": "sever reality",
         "points": 23,
         "image": "character-ability-cards/HP/sever-reality.png",
         "xws": "severreality",
         "level": 5
-        },
-        {
+      },
+      {
         "name": "enduring darkness",
         "points": 24,
         "image": "character-ability-cards/HP/enduring-darkness.png",
         "xws": "enduringdarkness",
         "level": 6
-        },
-        {
+      },
+      {
         "name": "implosion",
         "points": 25,
         "image": "character-ability-cards/HP/implosion.png",
         "xws": "implosion",
         "level": 6
-        },
-        {
+      },
+      {
         "name": "ruinous barrage",
         "points": 26,
         "image": "character-ability-cards/HP/ruinous-barrage.png",
         "xws": "ruinousbarrage",
         "level": 7
-        },
-        {
+      },
+      {
         "name": "gateway to the abyss",
         "points": 27,
         "image": "character-ability-cards/HP/gateway-to-the-abyss.png",
         "xws": "gatewaytotheabyss",
         "level": 7
-        },
-        {
+      },
+      {
         "name": "entropy unleashed",
         "points": 28,
         "image": "character-ability-cards/HP/entropy-unleashed.png",
         "xws": "entropyunleashed",
         "level": 8
-        },
-        {
+      },
+      {
         "name": "tendrils of the night",
         "points": 29,
         "image": "character-ability-cards/HP/tendrils-of-the-night.png",
         "xws": "tendrilsofthenight",
         "level": 8
-        },
-        {
+      },
+      {
         "name": "prescient voidmastery",
         "points": 30,
         "image": "character-ability-cards/HP/prescient-voidmastery.png",
         "xws": "prescientvoidmastery",
         "level": 9
-        },
-        {
+      },
+      {
         "name": "no escape",
         "points": 31,
         "image": "character-ability-cards/HP/no-escape.png",
         "xws": "noescape",
         "level": 9
-        },
+      },
+    ]
+  },
+  {
+    "name": "bo",
+    "max": 9,
+    "hidden": false,
+    "position": 10,
+
+    "cards": [
+      {
+        "name": "bo-back",
+        "points": 0,
+        "image": "character-ability-cards/BO/bo-back.png",
+        "xws": "boback",
+        "level": 0
+      },
+      {
+        "name": "bo-rules",
+        "points": 1,
+        "image": "character-ability-cards/BO/rules.png",
+        "xws": "borules",
+        "level": 0
+      },
+      {
+        "name": "barbed armor",
+        "points": 3,
+        "image": "character-ability-cards/BO/barbed-armor.png",
+        "xws": "barbedarmor",
+        "level": 1
+      },
+      {
+        "name": "consistent firing",
+        "points": 4,
+        "image": "character-ability-cards/BO/consistent-firing.png",
+        "xws": "consistentfiring",
+        "level": 1
+      },
+      {
+        "name": "double cannons",
+        "points": 5,
+        "image": "character-ability-cards/BO/double-cannons.png",
+        "xws": "doublecannons",
+        "level": 1
+      },
+      {
+        "name": "exploding cannonball",
+        "points": 6,
+        "image": "character-ability-cards/BO/exploding-cannonball.png",
+        "xws": "explodingcannonball",
+        "level": 1
+      },
+      {
+        "name": "forceful bolt",
+        "points": 7,
+        "image": "character-ability-cards/BO/forceful-bolt.png",
+        "xws": "forcefulbolt",
+        "level": 1
+      },
+      {
+        "name": "grappling hook",
+        "points": 8,
+        "image": "character-ability-cards/BO/grappling-hook.png",
+        "xws": "grapplinghook",
+        "level": 1
+      },
+      {
+        "name": "ignited launch",
+        "points": 9,
+        "image": "character-ability-cards/BO/ignited-launch.png",
+        "xws": "ignitedlaunch",
+        "level": 1
+      },
+      {
+        "name": "rolling into position",
+        "points": 10,
+        "image": "character-ability-cards/BO/rolling-into-position.png",
+        "xws": "rollingintoposition",
+        "level": 1
+      },
+      {
+        "name": "unexpected bombshell",
+        "points": 11,
+        "image": "character-ability-cards/BO/unexpected-bombshell.png",
+        "xws": "unexpectedbombshell",
+        "level": 1
+      },
+      {
+        "name": "chain grapnel",
+        "points": 12,
+        "image": "character-ability-cards/BO/chain-grapnel.png",
+        "xws": "chaingrapnel",
+        "level": 0
+      },
+      {
+        "name": "man the cannon",
+        "points": 13,
+        "image": "character-ability-cards/BO/man-the-cannon.png",
+        "xws": "manthecannon",
+        "level": 0
+      },
+      {
+        "name": "pillars of smoke",
+        "points": 14,
+        "image": "character-ability-cards/BO/pillars-of-smoke.png",
+        "xws": "pillarsofsmoke",
+        "level": 0
+      },
+      {
+        "name": "distant retribution",
+        "points": 15,
+        "image": "character-ability-cards/BO/distant-retribution.png",
+        "xws": "distantretribution",
+        "level": 2
+      },
+      {
+        "name": "rapid fire",
+        "points": 16,
+        "image": "character-ability-cards/BO/rapid-fire.png",
+        "xws": "rapidfire",
+        "level": 2
+      },
+      {
+        "name": "stationary enhancement",
+        "points": 17,
+        "image": "character-ability-cards/BO/stationary-enhancement.png",
+        "xws": "stationaryenhancement",
+        "level": 3
+      },
+      {
+        "name": "twin blast",
+        "points": 18,
+        "image": "character-ability-cards/BO/twin-blast.png",
+        "xws": "twinblast",
+        "level": 3
+      },
+      {
+        "name": "hurried repairs",
+        "points": 19,
+        "image": "character-ability-cards/BO/hurried-repairs.png",
+        "xws": "hurriedrepairs",
+        "level": 4
+      },
+      {
+        "name": "powerful buckshot",
+        "points": 20,
+        "image": "character-ability-cards/BO/powerful-buckshot.png",
+        "xws": "powerfulbuckshot",
+        "level": 4
+      },
+      {
+        "name": "sharpend focus",
+        "points": 21,
+        "image": "character-ability-cards/BO/sharpend-focus.png",
+        "xws": "sharpendfocus",
+        "level": 5
+      },
+      {
+        "name": "unbreakable position",
+        "points": 22,
+        "image": "character-ability-cards/BO/unbreakable-position.png",
+        "xws": "unbreakableposition",
+        "level": 5
+      },
+      {
+        "name": "meteoric blast",
+        "points": 23,
+        "image": "character-ability-cards/BO/meteoric-blast.png",
+        "xws": "meteoricblast",
+        "level": 6
+      },
+      {
+        "name": "prolific perforation",
+        "points": 24,
+        "image": "character-ability-cards/BO/prolific-perforation.png",
+        "xws": "prolificperforation",
+        "level": 6
+      },
+      {
+        "name": "airborne skyrocket",
+        "points": 25,
+        "image": "character-ability-cards/BO/airborne-skyrocket.png",
+        "xws": "airborneskyrocket",
+        "level": 7
+      },
+      {
+        "name": "ballistic barrage",
+        "points": 26,
+        "image": "character-ability-cards/BO/ballistic-barrage.png",
+        "xws": "ballisticbarrage",
+        "level": 7
+      },
+      {
+        "name": "defense mechanism",
+        "points": 27,
+        "image": "character-ability-cards/BO/defense-mechanism.png",
+        "xws": "defensemechanism",
+        "level": 8
+      },
+      {
+        "name": "quadruple cannons",
+        "points": 28,
+        "image": "character-ability-cards/BO/quadruple-cannons.png",
+        "xws": "quadruplecannons",
+        "level": 8
+      },
+      {
+        "name": "supercharged gunpowder",
+        "points": 29,
+        "image": "character-ability-cards/BO/supercharged-gunpowder.png",
+        "xws": "superchargedgunpowder",
+        "level": 9
+      },
+      {
+        "name": "superior upgrade",
+        "points": 30,
+        "image": "character-ability-cards/BO/superior-upgrade.png",
+        "xws": "superiorupgrade",
+        "level": 9
+      },
     ]
   },
 ]
